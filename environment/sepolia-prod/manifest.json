@@ -1,0 +1,10 @@
+{
+  "id": "sepolia-prod",
+  "deployedVersion": "0.0.0",
+  "contracts": {
+    "static": {},
+    "instances": []
+  },
+  "latestDeployedCommit": "",
+  "chainId": 11155111
+}
