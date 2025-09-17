@@ -1,0 +1,12 @@
+{
+  "DelegationManager": "0xD4A7E1Bd8015057293f0D0A557088c286942e84b",
+  "AllocationManager": "0x42583067658071247ec8CE0A516A58f682002d07",
+  "PermissionController": "0x44632dfBdCb6D3E21EF613B0ca8A6A0c618F5a37",
+  "KeyRegistrar": "0xA4dB30D08d8bbcA00D40600bee9F029984dB162a",
+  "ReleaseManager": "0x59c8D715DCa616e032B744a753C017c9f3E16bf4",
+  "executorMultisig": "0x4FDA8998EC3b7d4b4A612d45FeB8fB36734470f2",
+  "computeAdmin": "0xb094Ba769b4976Dc37fC689A76675f31bc4923b0",
+  "OPERATOR_METADATA_URI": "https://gist.githubusercontent.com/solimander/77cb0bad588efef87a24cdc35532c2b7/raw/afe78406afe7bda1889e4f55912ad1f89d801b83/metadata.json",
+  "AVS_METADATA_URI": "https://gist.githubusercontent.com/solimander/77cb0bad588efef87a24cdc35532c2b7/raw/afe78414afe7bda1889e4f55912ad1f89d801b83/metadata.json",
+  "MAX_GLOBAL_ACTIVE_APPS": 100
+}
