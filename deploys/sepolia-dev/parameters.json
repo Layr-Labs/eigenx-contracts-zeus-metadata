@@ -6,5 +6,6 @@
   "ReleaseManager": "0x59c8D715DCa616e032B744a753C017c9f3E16bf4",
   "ADMIN": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
   "OPERATOR_METADATA_URI": "https://gist.githubusercontent.com/solimander/77cb0bad588efef87a24cdc35532c2b7/raw/afe78406afe7bda1889e4f55912ad1f89d801b83/metadata.json",
-  "AVS_METADATA_URI": "https://gist.githubusercontent.com/solimander/77cb0bad588efef87a24cdc35532c2b7/raw/afe78406afe7bda1889e4f55912ad1f89d801b83/metadata.json"
+  "AVS_METADATA_URI": "https://gist.githubusercontent.com/solimander/77cb0bad588efef87a24cdc35532c2b7/raw/afe78406afe7bda1889e4f55912ad1f89d801b83/metadata.json",
+  "MAX_GLOBAL_ACTIVE_APPS": 100
 }
