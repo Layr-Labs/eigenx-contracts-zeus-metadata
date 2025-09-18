@@ -6,7 +6,7 @@
   "ReleaseManager": "0x59c8D715DCa616e032B744a753C017c9f3E16bf4",
   "executorMultisig": "0x4FDA8998EC3b7d4b4A612d45FeB8fB36734470f2",
   "opsMulisig": "0xb094Ba769b4976Dc37fC689A76675f31bc4923b0",
-  "computeAdmin": "0xb094Ba769b4976Dc37fC689A76675f31bc4923b0",
+  "computeWhitelister": "0xb094Ba769b4976Dc37fC689A76675f31bc4923b0",
   "OPERATOR_METADATA_URI": "https://gist.githubusercontent.com/solimander/77cb0bad588efef87a24cdc35532c2b7/raw/afe78406afe7bda1889e4f55912ad1f89d801b83/metadata.json",
   "AVS_METADATA_URI": "https://gist.githubusercontent.com/solimander/77cb0bad588efef87a24cdc35532c2b7/raw/afe78406afe7bda1889e4f55912ad1f89d801b83/metadata.json",
   "MAX_GLOBAL_ACTIVE_APPS": 100
