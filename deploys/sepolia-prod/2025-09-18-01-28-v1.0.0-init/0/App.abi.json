@@ -1,0 +1,361 @@
+{
+  "abi": [
+    {
+      "type": "constructor",
+      "inputs": [
+        {
+          "name": "version",
+          "type": "string",
+          "internalType": "string"
+        },
+        {
+          "name": "_permissionController",
+          "type": "address",
+          "internalType": "contract IPermissionController"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "initialize",
+      "inputs": [
+        {
+          "name": "admin",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "permissionController",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IPermissionController"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "version",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "string",
+          "internalType": "string"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "event",
+      "name": "Initialized",
+      "inputs": [
+        {
+          "name": "version",
+          "type": "uint8",
+          "indexed": false,
+          "internalType": "uint8"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "error",
+      "name": "InvalidShortString",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "StringTooLong",
+      "inputs": [
+        {
+          "name": "str",
+          "type": "string",
+          "internalType": "string"
+        }
+      ]
+    }
+  ],
+  "bytecode": {
+    "object": "0x60c060405234801561000f575f5ffd5b50604051610c69380380610c698339818101604052810190610031919061036f565b80826100428161009460201b60201c565b60808181525050508073ffffffffffffffffffffffffffffffffffffffff1660a08173ffffffffffffffffffffffffffffffffffffffff16815250505061008d6100f960201b60201c565b50506105a5565b5f5f829050601f815111156100e057826040517f305a27a90000000000000000000000000000000000000000000000000000000081526004016100d7919061041b565b60405180910390fd5b8051816100ec9061047d565b5f1c175f1b915050919050565b5f60019054906101000a900460ff1615610148576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161013f90610553565b60405180910390fd5b60ff80165f5f9054906101000a900460ff1660ff16146101b55760ff5f5f6101000a81548160ff021916908360ff1602179055507f7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb384740249860ff6040516101ac919061058c565b60405180910390a15b565b5f604051905090565b5f5ffd5b5f5ffd5b5f5ffd5b5f5ffd5b5f601f19601f8301169050919050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52604160045260245ffd5b610216826101d0565b810181811067ffffffffffffffff82111715610235576102346101e0565b5b80604052505050565b5f6102476101b7565b9050610253828261020d565b919050565b5f67ffffffffffffffff821115610272576102716101e0565b5b61027b826101d0565b9050602081019050919050565b8281835e5f83830152505050565b5f6102a86102a384610258565b61023e565b9050828152602081018484840111156102c4576102c36101cc565b5b6102cf848285610288565b509392505050565b5f82601f8301126102eb576102ea6101c8565b5b81516102fb848260208601610296565b91505092915050565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f61032d82610304565b9050919050565b5f61033e82610323565b9050919050565b61034e81610334565b8114610358575f5ffd5b50565b5f8151905061036981610345565b92915050565b5f5f60408385031215610385576103846101c0565b5b5f83015167ffffffffffffffff8111156103a2576103a16101c4565b5b6103ae858286016102d7565b92505060206103bf8582860161035b565b9150509250929050565b5f81519050919050565b5f82825260208201905092915050565b5f6103ed826103c9565b6103f781856103d3565b9350610407818560208601610288565b610410816101d0565b840191505092915050565b5f6020820190508181035f83015261043381846103e3565b905092915050565b5f81519050919050565b5f819050602082019050919050565b5f819050919050565b5f6104688251610454565b80915050919050565b5f82821b905092915050565b5f6104878261043b565b8261049184610445565b905061049c8161045d565b925060208210156104dc576104d77fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff83602003600802610471565b831692505b5050919050565b7f496e697469616c697a61626c653a20636f6e747261637420697320696e6974695f8201527f616c697a696e6700000000000000000000000000000000000000000000000000602082015250565b5f61053d6027836103d3565b9150610548826104e3565b604082019050919050565b5f6020820190508181035f83015261056a81610531565b9050919050565b5f60ff82169050919050565b61058681610571565b82525050565b5f60208201905061059f5f83018461057d565b92915050565b60805160a05161069e6105cb5f395f8181609d01526101c801525f60c6015261069e5ff3fe608060405234801561000f575f5ffd5b506004361061003f575f3560e01c80634657e26a1461004357806354fd4d5014610061578063c4d66de81461007f575b5f5ffd5b61004b61009b565b6040516100589190610406565b60405180910390f35b6100696100bf565b604051610076919061048f565b60405180910390f35b610099600480360381019061009491906104ee565b6100ef565b005b7f000000000000000000000000000000000000000000000000000000000000000081565b60606100ea7f00000000000000000000000000000000000000000000000000000000000000006102aa565b905090565b5f5f60019054906101000a900460ff1615905080801561011f575060015f5f9054906101000a900460ff1660ff16105b8061014c575061012e3061031c565b15801561014b575060015f5f9054906101000a900460ff1660ff16145b5b61018b576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161018290610589565b60405180910390fd5b60015f5f6101000a81548160ff021916908360ff16021790555080156101c65760015f60016101000a81548160ff0219169083151502179055505b7f000000000000000000000000000000000000000000000000000000000000000073ffffffffffffffffffffffffffffffffffffffff1663eb5a4e8730846040518363ffffffff1660e01b81526004016102219291906105b6565b5f604051808303815f87803b158015610238575f5ffd5b505af115801561024a573d5f5f3e3d5ffd5b5050505080156102a6575f5f60016101000a81548160ff0219169083151502179055507f7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb3847402498600160405161029d9190610622565b60405180910390a15b5050565b60605f6102b68361033e565b90505f602067ffffffffffffffff8111156102d4576102d361063b565b5b6040519080825280601f01601f1916602001820160405280156103065781602001600182028036833780820191505090505b5090508181528360208201528092505050919050565b5f5f8273ffffffffffffffffffffffffffffffffffffffff163b119050919050565b5f5f60ff835f1c169050601f811115610383576040517fb3512b0c00000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b80915050919050565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f819050919050565b5f6103ce6103c96103c48461038c565b6103ab565b61038c565b9050919050565b5f6103df826103b4565b9050919050565b5f6103f0826103d5565b9050919050565b610400816103e6565b82525050565b5f6020820190506104195f8301846103f7565b92915050565b5f81519050919050565b5f82825260208201905092915050565b8281835e5f83830152505050565b5f601f19601f8301169050919050565b5f6104618261041f565b61046b8185610429565b935061047b818560208601610439565b61048481610447565b840191505092915050565b5f6020820190508181035f8301526104a78184610457565b905092915050565b5f5ffd5b5f6104bd8261038c565b9050919050565b6104cd816104b3565b81146104d7575f5ffd5b50565b5f813590506104e8816104c4565b92915050565b5f60208284031215610503576105026104af565b5b5f610510848285016104da565b91505092915050565b7f496e697469616c697a61626c653a20636f6e747261637420697320616c7265615f8201527f647920696e697469616c697a6564000000000000000000000000000000000000602082015250565b5f610573602e83610429565b915061057e82610519565b604082019050919050565b5f6020820190508181035f8301526105a081610567565b9050919050565b6105b0816104b3565b82525050565b5f6040820190506105c95f8301856105a7565b6105d660208301846105a7565b9392505050565b5f819050919050565b5f60ff82169050919050565b5f61060c610607610602846105dd565b6103ab565b6105e6565b9050919050565b61061c816105f2565b82525050565b5f6020820190506106355f830184610613565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52604160045260245ffdfea26469706673582212201d84c47fd7e557bb0d8c58ada3fc8a8149d29bdf3c69d6d71523942d939e8b0564736f6c634300081e0033",
+    "sourceMap": "455:467:119:-:0;;;516:194;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;644:21;616:7;961:24:32;:8;:22;;;:24;;:::i;:::-;950:35;;;;;;890:102;513:21:128;490:44;;;;;;;;;;423:118;681:22:119::2;:20;;;:22;;:::i;:::-;516:194:::0;;455:467;;1711:286:46;1776:11;1799:17;1825:3;1799:30;;1857:2;1843:4;:11;:16;1839:72;;;1896:3;1882:18;;;;;;;;;;;:::i;:::-;;;;;;;;1839:72;1977:4;:11;1968:4;1960:13;;;:::i;:::-;1952:22;;:36;1944:45;;1920:70;;;1711:286;;;:::o;5939:280:42:-;6007:13;;;;;;;;;;;6006:14;5998:66;;;;;;;;;;;;:::i;:::-;;;;;;;;;6094:15;6078:31;;:12;;;;;;;;;;;:31;;;6074:139;;6140:15;6125:12;;:30;;;;;;;;;;;;;;;;;;6174:28;6186:15;6174:28;;;;;;:::i;:::-;;;;;;;;6074:139;5939:280::o;7:75:131:-;40:6;73:2;67:9;57:19;;7:75;:::o;88:117::-;197:1;194;187:12;211:117;320:1;317;310:12;334:117;443:1;440;433:12;457:117;566:1;563;556:12;580:102;621:6;672:2;668:7;663:2;656:5;652:14;648:28;638:38;;580:102;;;:::o;688:180::-;736:77;733:1;726:88;833:4;830:1;823:15;857:4;854:1;847:15;874:281;957:27;979:4;957:27;:::i;:::-;949:6;945:40;1087:6;1075:10;1072:22;1051:18;1039:10;1036:34;1033:62;1030:88;;;1098:18;;:::i;:::-;1030:88;1138:10;1134:2;1127:22;917:238;874:281;;:::o;1161:129::-;1195:6;1222:20;;:::i;:::-;1212:30;;1251:33;1279:4;1271:6;1251:33;:::i;:::-;1161:129;;;:::o;1296:308::-;1358:4;1448:18;1440:6;1437:30;1434:56;;;1470:18;;:::i;:::-;1434:56;1508:29;1530:6;1508:29;:::i;:::-;1500:37;;1592:4;1586;1582:15;1574:23;;1296:308;;;:::o;1610:139::-;1699:6;1694:3;1689;1683:23;1740:1;1731:6;1726:3;1722:16;1715:27;1610:139;;;:::o;1755:434::-;1844:5;1869:66;1885:49;1927:6;1885:49;:::i;:::-;1869:66;:::i;:::-;1860:75;;1958:6;1951:5;1944:21;1996:4;1989:5;1985:16;2034:3;2025:6;2020:3;2016:16;2013:25;2010:112;;;2041:79;;:::i;:::-;2010:112;2131:52;2176:6;2171:3;2166;2131:52;:::i;:::-;1850:339;1755:434;;;;;:::o;2209:355::-;2276:5;2325:3;2318:4;2310:6;2306:17;2302:27;2292:122;;2333:79;;:::i;:::-;2292:122;2443:6;2437:13;2468:90;2554:3;2546:6;2539:4;2531:6;2527:17;2468:90;:::i;:::-;2459:99;;2282:282;2209:355;;;;:::o;2570:126::-;2607:7;2647:42;2640:5;2636:54;2625:65;;2570:126;;;:::o;2702:96::-;2739:7;2768:24;2786:5;2768:24;:::i;:::-;2757:35;;2702:96;;;:::o;2804:126::-;2871:7;2900:24;2918:5;2900:24;:::i;:::-;2889:35;;2804:126;;;:::o;2936:182::-;3039:54;3087:5;3039:54;:::i;:::-;3032:5;3029:65;3019:93;;3108:1;3105;3098:12;3019:93;2936:182;:::o;3124:203::-;3211:5;3242:6;3236:13;3227:22;;3258:63;3315:5;3258:63;:::i;:::-;3124:203;;;;:::o;3333:740::-;3452:6;3460;3509:2;3497:9;3488:7;3484:23;3480:32;3477:119;;;3515:79;;:::i;:::-;3477:119;3656:1;3645:9;3641:17;3635:24;3686:18;3678:6;3675:30;3672:117;;;3708:79;;:::i;:::-;3672:117;3813:74;3879:7;3870:6;3859:9;3855:22;3813:74;:::i;:::-;3803:84;;3606:291;3936:2;3962:94;4048:7;4039:6;4028:9;4024:22;3962:94;:::i;:::-;3952:104;;3907:159;3333:740;;;;;:::o;4079:99::-;4131:6;4165:5;4159:12;4149:22;;4079:99;;;:::o;4184:169::-;4268:11;4302:6;4297:3;4290:19;4342:4;4337:3;4333:14;4318:29;;4184:169;;;;:::o;4359:377::-;4447:3;4475:39;4508:5;4475:39;:::i;:::-;4530:71;4594:6;4589:3;4530:71;:::i;:::-;4523:78;;4610:65;4668:6;4663:3;4656:4;4649:5;4645:16;4610:65;:::i;:::-;4700:29;4722:6;4700:29;:::i;:::-;4695:3;4691:39;4684:46;;4451:285;4359:377;;;;:::o;4742:313::-;4855:4;4893:2;4882:9;4878:18;4870:26;;4942:9;4936:4;4932:20;4928:1;4917:9;4913:17;4906:47;4970:78;5043:4;5034:6;4970:78;:::i;:::-;4962:86;;4742:313;;;;:::o;5061:98::-;5112:6;5146:5;5140:12;5130:22;;5061:98;;;:::o;5165:116::-;5216:4;5239:3;5231:11;;5269:4;5264:3;5260:14;5252:22;;5165:116;;;:::o;5287:77::-;5324:7;5353:5;5342:16;;5287:77;;;:::o;5370:154::-;5413:11;5449:29;5473:3;5467:10;5449:29;:::i;:::-;5512:5;5488:29;;5425:99;5370:154;;;:::o;5530:107::-;5574:8;5624:5;5618:4;5614:16;5593:37;;5530:107;;;;:::o;5643:594::-;5727:5;5758:38;5790:5;5758:38;:::i;:::-;5821:5;5848:40;5882:5;5848:40;:::i;:::-;5836:52;;5907:35;5933:8;5907:35;:::i;:::-;5898:44;;5966:2;5958:6;5955:14;5952:278;;;6037:169;6122:66;6092:6;6088:2;6084:15;6081:1;6077:23;6037:169;:::i;:::-;6014:5;5993:227;5984:236;;5952:278;5733:504;;5643:594;;;:::o;6243:226::-;6383:34;6379:1;6371:6;6367:14;6360:58;6452:9;6447:2;6439:6;6435:15;6428:34;6243:226;:::o;6475:366::-;6617:3;6638:67;6702:2;6697:3;6638:67;:::i;:::-;6631:74;;6714:93;6803:3;6714:93;:::i;:::-;6832:2;6827:3;6823:12;6816:19;;6475:366;;;:::o;6847:419::-;7013:4;7051:2;7040:9;7036:18;7028:26;;7100:9;7094:4;7090:20;7086:1;7075:9;7071:17;7064:47;7128:131;7254:4;7128:131;:::i;:::-;7120:139;;6847:419;;;:::o;7272:86::-;7307:7;7347:4;7340:5;7336:16;7325:27;;7272:86;;;:::o;7364:112::-;7447:22;7463:5;7447:22;:::i;:::-;7442:3;7435:35;7364:112;;:::o;7482:214::-;7571:4;7609:2;7598:9;7594:18;7586:26;;7622:67;7686:1;7675:9;7671:17;7662:6;7622:67;:::i;:::-;7482:214;;;;:::o;455:467:119:-;;;;;;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561000f575f5ffd5b506004361061003f575f3560e01c80634657e26a1461004357806354fd4d5014610061578063c4d66de81461007f575b5f5ffd5b61004b61009b565b6040516100589190610406565b60405180910390f35b6100696100bf565b604051610076919061048f565b60405180910390f35b610099600480360381019061009491906104ee565b6100ef565b005b7f000000000000000000000000000000000000000000000000000000000000000081565b60606100ea7f00000000000000000000000000000000000000000000000000000000000000006102aa565b905090565b5f5f60019054906101000a900460ff1615905080801561011f575060015f5f9054906101000a900460ff1660ff16105b8061014c575061012e3061031c565b15801561014b575060015f5f9054906101000a900460ff1660ff16145b5b61018b576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161018290610589565b60405180910390fd5b60015f5f6101000a81548160ff021916908360ff16021790555080156101c65760015f60016101000a81548160ff0219169083151502179055505b7f000000000000000000000000000000000000000000000000000000000000000073ffffffffffffffffffffffffffffffffffffffff1663eb5a4e8730846040518363ffffffff1660e01b81526004016102219291906105b6565b5f604051808303815f87803b158015610238575f5ffd5b505af115801561024a573d5f5f3e3d5ffd5b5050505080156102a6575f5f60016101000a81548160ff0219169083151502179055507f7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb3847402498600160405161029d9190610622565b60405180910390a15b5050565b60605f6102b68361033e565b90505f602067ffffffffffffffff8111156102d4576102d361063b565b5b6040519080825280601f01601f1916602001820160405280156103065781602001600182028036833780820191505090505b5090508181528360208201528092505050919050565b5f5f8273ffffffffffffffffffffffffffffffffffffffff163b119050919050565b5f5f60ff835f1c169050601f811115610383576040517fb3512b0c00000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b80915050919050565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f819050919050565b5f6103ce6103c96103c48461038c565b6103ab565b61038c565b9050919050565b5f6103df826103b4565b9050919050565b5f6103f0826103d5565b9050919050565b610400816103e6565b82525050565b5f6020820190506104195f8301846103f7565b92915050565b5f81519050919050565b5f82825260208201905092915050565b8281835e5f83830152505050565b5f601f19601f8301169050919050565b5f6104618261041f565b61046b8185610429565b935061047b818560208601610439565b61048481610447565b840191505092915050565b5f6020820190508181035f8301526104a78184610457565b905092915050565b5f5ffd5b5f6104bd8261038c565b9050919050565b6104cd816104b3565b81146104d7575f5ffd5b50565b5f813590506104e8816104c4565b92915050565b5f60208284031215610503576105026104af565b5b5f610510848285016104da565b91505092915050565b7f496e697469616c697a61626c653a20636f6e747261637420697320616c7265615f8201527f647920696e697469616c697a6564000000000000000000000000000000000000602082015250565b5f610573602e83610429565b915061057e82610519565b604082019050919050565b5f6020820190508181035f8301526105a081610567565b9050919050565b6105b0816104b3565b82525050565b5f6040820190506105c95f8301856105a7565b6105d660208301846105a7565b9392505050565b5f819050919050565b5f60ff82169050919050565b5f61060c610607610602846105dd565b6103ab565b6105e6565b9050919050565b61061c816105f2565b82525050565b5f6020820190506106355f830184610613565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52604160045260245ffdfea26469706673582212201d84c47fd7e557bb0d8c58ada3fc8a8149d29bdf3c69d6d71523942d939e8b0564736f6c634300081e0033",
+    "sourceMap": "455:467:119:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;357:59:128;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1031:106:32;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;741:179:119;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;357:59:128;;;:::o;1031:106:32:-;1079:13;1111:19;:8;:17;:19::i;:::-;1104:26;;1031:106;:::o;741:179:119:-;3279:19:42;3302:13;;;;;;;;;;;3301:14;3279:36;;3347:14;:34;;;;;3380:1;3365:12;;;;;;;;;;;:16;;;3347:34;3346:108;;;;3388:44;3426:4;3388:29;:44::i;:::-;3387:45;:66;;;;;3452:1;3436:12;;;;;;;;;;;:17;;;3387:66;3346:108;3325:201;;;;;;;;;;;;:::i;:::-;;;;;;;;;3551:1;3536:12;;:16;;;;;;;;;;;;;;;;;;3566:14;3562:65;;;3612:4;3596:13;;:20;;;;;;;;;;;;;;;;;;3562:65;855:20:119::1;:36;;;900:4;907:5;855:58;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;3651:14:42::0;3647:99;;;3697:5;3681:13;;:21;;;;;;;;;;;;;;;;;;3721:14;3733:1;3721:14;;;;;;:::i;:::-;;;;;;;;3647:99;3269:483;741:179:119;:::o;2081:405:46:-;2140:13;2165:11;2179:16;2190:4;2179:10;:16::i;:::-;2165:30;;2283:17;2314:2;2303:14;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2283:34;;2405:3;2400;2393:16;2445:4;2438;2433:3;2429:14;2422:28;2476:3;2469:10;;;;2081:405;;;:::o;1423:320:44:-;1483:4;1735:1;1713:7;:19;;;:23;1706:30;;1423:320;;;:::o;2558:245:46:-;2619:7;2638:14;2691:4;2682;2655:33;;:40;2638:57;;2718:2;2709:6;:11;2705:69;;;2743:20;;;;;;;;;;;;;;2705:69;2790:6;2783:13;;;2558:245;;;:::o;7:126:131:-;44:7;84:42;77:5;73:54;62:65;;7:126;;;:::o;139:60::-;167:3;188:5;181:12;;139:60;;;:::o;205:142::-;255:9;288:53;306:34;315:24;333:5;315:24;:::i;:::-;306:34;:::i;:::-;288:53;:::i;:::-;275:66;;205:142;;;:::o;353:126::-;403:9;436:37;467:5;436:37;:::i;:::-;423:50;;353:126;;;:::o;485:156::-;565:9;598:37;629:5;598:37;:::i;:::-;585:50;;485:156;;;:::o;647:191::-;764:67;825:5;764:67;:::i;:::-;759:3;752:80;647:191;;:::o;844:282::-;967:4;1005:2;994:9;990:18;982:26;;1018:101;1116:1;1105:9;1101:17;1092:6;1018:101;:::i;:::-;844:282;;;;:::o;1132:99::-;1184:6;1218:5;1212:12;1202:22;;1132:99;;;:::o;1237:169::-;1321:11;1355:6;1350:3;1343:19;1395:4;1390:3;1386:14;1371:29;;1237:169;;;;:::o;1412:139::-;1501:6;1496:3;1491;1485:23;1542:1;1533:6;1528:3;1524:16;1517:27;1412:139;;;:::o;1557:102::-;1598:6;1649:2;1645:7;1640:2;1633:5;1629:14;1625:28;1615:38;;1557:102;;;:::o;1665:377::-;1753:3;1781:39;1814:5;1781:39;:::i;:::-;1836:71;1900:6;1895:3;1836:71;:::i;:::-;1829:78;;1916:65;1974:6;1969:3;1962:4;1955:5;1951:16;1916:65;:::i;:::-;2006:29;2028:6;2006:29;:::i;:::-;2001:3;1997:39;1990:46;;1757:285;1665:377;;;;:::o;2048:313::-;2161:4;2199:2;2188:9;2184:18;2176:26;;2248:9;2242:4;2238:20;2234:1;2223:9;2219:17;2212:47;2276:78;2349:4;2340:6;2276:78;:::i;:::-;2268:86;;2048:313;;;;:::o;2448:117::-;2557:1;2554;2547:12;2694:96;2731:7;2760:24;2778:5;2760:24;:::i;:::-;2749:35;;2694:96;;;:::o;2796:122::-;2869:24;2887:5;2869:24;:::i;:::-;2862:5;2859:35;2849:63;;2908:1;2905;2898:12;2849:63;2796:122;:::o;2924:139::-;2970:5;3008:6;2995:20;2986:29;;3024:33;3051:5;3024:33;:::i;:::-;2924:139;;;;:::o;3069:329::-;3128:6;3177:2;3165:9;3156:7;3152:23;3148:32;3145:119;;;3183:79;;:::i;:::-;3145:119;3303:1;3328:53;3373:7;3364:6;3353:9;3349:22;3328:53;:::i;:::-;3318:63;;3274:117;3069:329;;;;:::o;3404:233::-;3544:34;3540:1;3532:6;3528:14;3521:58;3613:16;3608:2;3600:6;3596:15;3589:41;3404:233;:::o;3643:366::-;3785:3;3806:67;3870:2;3865:3;3806:67;:::i;:::-;3799:74;;3882:93;3971:3;3882:93;:::i;:::-;4000:2;3995:3;3991:12;3984:19;;3643:366;;;:::o;4015:419::-;4181:4;4219:2;4208:9;4204:18;4196:26;;4268:9;4262:4;4258:20;4254:1;4243:9;4239:17;4232:47;4296:131;4422:4;4296:131;:::i;:::-;4288:139;;4015:419;;;:::o;4440:118::-;4527:24;4545:5;4527:24;:::i;:::-;4522:3;4515:37;4440:118;;:::o;4564:332::-;4685:4;4723:2;4712:9;4708:18;4700:26;;4736:71;4804:1;4793:9;4789:17;4780:6;4736:71;:::i;:::-;4817:72;4885:2;4874:9;4870:18;4861:6;4817:72;:::i;:::-;4564:332;;;;;:::o;4902:85::-;4947:7;4976:5;4965:16;;4902:85;;;:::o;4993:86::-;5028:7;5068:4;5061:5;5057:16;5046:27;;4993:86;;;:::o;5085:154::-;5141:9;5174:59;5190:42;5199:32;5225:5;5199:32;:::i;:::-;5190:42;:::i;:::-;5174:59;:::i;:::-;5161:72;;5085:154;;;:::o;5245:143::-;5338:43;5375:5;5338:43;:::i;:::-;5333:3;5326:56;5245:143;;:::o;5394:234::-;5493:4;5531:2;5520:9;5516:18;5508:26;;5544:77;5618:1;5607:9;5603:17;5594:6;5544:77;:::i;:::-;5394:234;;;;:::o;5634:180::-;5682:77;5679:1;5672:88;5779:4;5776:1;5769:15;5803:4;5800:1;5793:15",
+    "linkReferences": {},
+    "immutableReferences": {
+      "13769": [
+        {
+          "start": 198,
+          "length": 32
+        }
+      ],
+      "73667": [
+        {
+          "start": 157,
+          "length": 32
+        },
+        {
+          "start": 456,
+          "length": 32
+        }
+      ]
+    }
+  },
+  "methodIdentifiers": {
+    "initialize(address)": "c4d66de8",
+    "permissionController()": "4657e26a",
+    "version()": "54fd4d50"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.30+commit.73712a01\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"string\",\"name\":\"version\",\"type\":\"string\"},{\"internalType\":\"contract IPermissionController\",\"name\":\"_permissionController\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"InvalidShortString\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"str\",\"type\":\"string\"}],\"name\":\"StringTooLong\",\"type\":\"error\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint8\",\"name\":\"version\",\"type\":\"uint8\"}],\"name\":\"Initialized\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"admin\",\"type\":\"address\"}],\"name\":\"initialize\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"permissionController\",\"outputs\":[{\"internalType\":\"contract IPermissionController\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"version\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"events\":{\"Initialized(uint8)\":{\"details\":\"Triggered when the contract has been initialized or reinitialized.\"}},\"kind\":\"dev\",\"methods\":{\"initialize(address)\":{\"params\":{\"admin\":\"The UAM admin to be set for the app\"}},\"version()\":{\"returns\":{\"_0\":\"The version string in SemVer format (e.g., \\\"1.1.1\\\")\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"initialize(address)\":{\"notice\":\"Initializes the App\"},\"permissionController()\":{\"notice\":\"The EigenLayer PermissionController contract\"},\"version()\":{\"notice\":\"Returns the semantic version string of the contract.\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/App.sol\":\"App\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[\":@eigenlayer-contracts/=lib/eigenlayer-middleware/lib/eigenlayer-contracts/\",\":@eigenlayer-middleware/=lib/eigenlayer-middleware/\",\":@openzeppelin-upgrades/=lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/\",\":@openzeppelin/=lib/eigenlayer-middleware/lib/openzeppelin-contracts/\",\":ds-test/=lib/eigenlayer-middleware/lib/ds-test/src/\",\":eigenlayer-contracts/=lib/eigenlayer-middleware/lib/eigenlayer-contracts/\",\":eigenlayer-middleware/=lib/eigenlayer-middleware/\",\":erc4626-tests/=lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts-upgradeable-v4.9.0/=lib/eigenlayer-middleware/lib/eigenlayer-contracts/lib/openzeppelin-contracts-upgradeable-v4.9.0/\",\":openzeppelin-contracts-upgradeable/=lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts-v4.9.0/=lib/eigenlayer-middleware/lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/\",\":openzeppelin-contracts/=lib/eigenlayer-middleware/lib/openzeppelin-contracts/\",\":openzeppelin/=lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/contracts/\",\":zeus-templates/=lib/zeus-templates/src/\"]},\"sources\":{\"lib/eigenlayer-middleware/lib/eigenlayer-contracts/src/contracts/interfaces/IPermissionController.sol\":{\"keccak256\":\"0x5642a146907a9302553a6cf92d96d417ff90c679dd24eaf7c3408f831e4d838f\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://a661e690160100dc11646f9011275c996c571d4b7876ac2bdf9b05309c63096f\",\"dweb:/ipfs/QmXJfg7u89XUZ3DYcbo3zTyvWwCKuaUn26DDwFTmsgDoPg\"]},\"lib/eigenlayer-middleware/lib/eigenlayer-contracts/src/contracts/interfaces/ISemVerMixin.sol\":{\"keccak256\":\"0xa7cfe506856653310b402b73baca96af947897c02b5b35a310640443e1332791\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://e23941c3b825e02e3521dbbae63c5b58fb48d17125669fc0cd3c8d5a8c272d6e\",\"dweb:/ipfs/QmaPfH8XkpT1nsEdJe34YbQCwBf1Gq89EvUPvG1wPforZa\"]},\"lib/eigenlayer-middleware/lib/eigenlayer-contracts/src/contracts/mixins/SemVerMixin.sol\":{\"keccak256\":\"0xbc950c1589c05a76d7c0fec82ad11d15567e2cf8d98770a19963461603f99648\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://d483b91672739d608ea510bc1b0f486c13264a50c001c0fa9c909b0282e22546\",\"dweb:/ipfs/QmdByvG58PAG44LWhXKxyrLpHdsr8epaTcEGhfzhH7ssHc\"]},\"lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol\":{\"keccak256\":\"0x89be10e757d242e9b18d5a32c9fbe2019f6d63052bbe46397a430a1d60d7f794\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f103ee2e4aecd37aac6ceefe670709cdd7613dee25fa2d4d9feaf7fc0aaa155e\",\"dweb:/ipfs/QmRiNZLoJk5k3HPMYGPGjZFd2ke1ZxjhJZkM45Ec9GH9hv\"]},\"lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/contracts/utils/AddressUpgradeable.sol\":{\"keccak256\":\"0x9c80f545915582e63fe206c6ce27cbe85a86fc10b9cd2a0e8c9488fb7c2ee422\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://310136ad60820af4177a11a61d77a3686faf5fca4942b600e08fc940db38396b\",\"dweb:/ipfs/QmbCzMNSTL7Zi7M4UCSqBrkHtp4jjxUnGbkneCZKdR1qeq\"]},\"lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/contracts/utils/ShortStringsUpgradeable.sol\":{\"keccak256\":\"0x4e34d967d14c25ef92ef1d4f7a8761949941f46c8f068923bd59d6e09c23b822\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a4643a5a7f8f7794f502d5fc6576ec09c10732680b93b44ca1899b6f32e7d5de\",\"dweb:/ipfs/QmVQShpVY4y2Z6XY4ErtkQeNpbGEAcAQXrBeKSti4rX4UB\"]},\"lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/contracts/utils/StorageSlotUpgradeable.sol\":{\"keccak256\":\"0x07ac95acad040f1fb1f6120dd0aa5f702db69446e95f82613721879d30de0908\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a9df9de7b5da1d1bd3d4b6c073d0174bc4211db60e794a321c8cb5d4eae34685\",\"dweb:/ipfs/QmWe49zj65jayrCe9jZpoWhYUZ1RiwSxyU2s7SBZnMztVy\"]},\"src/App.sol\":{\"keccak256\":\"0x6077a24d20717297cb3a9fea21ba3e4b5d6c4f1dfef29c14497e112287662e04\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://a5138f2f8b98459c93a80100591ed459aa18c7ea4bcc189a90172486d91978c1\",\"dweb:/ipfs/Qmb5gfP1tcTTtqmknVtDiCLz7jJeG4PnYg9SbjCeNqA7Ky\"]},\"src/interfaces/IApp.sol\":{\"keccak256\":\"0x6f62a30798ae91d791d33f5364f11a76ab5f22fb44d978e0b5057aa9fbccfb7b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ceb8dff3c1e893fd22d8e3c13a67282fbb2af250936228847d2827a87fe18509\",\"dweb:/ipfs/QmZTzqs4V9zGJg7wUhSCqtfsPZpdTS9o3kauj3mR8dpo6v\"]},\"src/storage/AppStorage.sol\":{\"keccak256\":\"0xc038e3969baee4c616288c58d75eafb1efde0d5a194aad4856a8bebe12c470d2\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://3a51fdb6637d270cb526eac06b03ca224445ecb124385b7cce39ff4e3055202c\",\"dweb:/ipfs/QmVz5na5bSjYdJrMb4t6911sPwjoB288vMUxMHqzUE6Q4B\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.30+commit.73712a01"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "version",
+              "type": "string"
+            },
+            {
+              "internalType": "contract IPermissionController",
+              "name": "_permissionController",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "InvalidShortString"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "str",
+              "type": "string"
+            }
+          ],
+          "type": "error",
+          "name": "StringTooLong"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint8",
+              "name": "version",
+              "type": "uint8",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "Initialized",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "admin",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "initialize"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "permissionController",
+          "outputs": [
+            {
+              "internalType": "contract IPermissionController",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "version",
+          "outputs": [
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "initialize(address)": {
+            "params": {
+              "admin": "The UAM admin to be set for the app"
+            }
+          },
+          "version()": {
+            "returns": {
+              "_0": "The version string in SemVer format (e.g., \"1.1.1\")"
+            }
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {
+          "initialize(address)": {
+            "notice": "Initializes the App"
+          },
+          "permissionController()": {
+            "notice": "The EigenLayer PermissionController contract"
+          },
+          "version()": {
+            "notice": "Returns the semantic version string of the contract."
+          }
+        },
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@eigenlayer-contracts/=lib/eigenlayer-middleware/lib/eigenlayer-contracts/",
+        "@eigenlayer-middleware/=lib/eigenlayer-middleware/",
+        "@openzeppelin-upgrades/=lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/",
+        "@openzeppelin/=lib/eigenlayer-middleware/lib/openzeppelin-contracts/",
+        "ds-test/=lib/eigenlayer-middleware/lib/ds-test/src/",
+        "eigenlayer-contracts/=lib/eigenlayer-middleware/lib/eigenlayer-contracts/",
+        "eigenlayer-middleware/=lib/eigenlayer-middleware/",
+        "erc4626-tests/=lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+        "forge-std/=lib/forge-std/src/",
+        "openzeppelin-contracts-upgradeable-v4.9.0/=lib/eigenlayer-middleware/lib/eigenlayer-contracts/lib/openzeppelin-contracts-upgradeable-v4.9.0/",
+        "openzeppelin-contracts-upgradeable/=lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts-v4.9.0/=lib/eigenlayer-middleware/lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/",
+        "openzeppelin-contracts/=lib/eigenlayer-middleware/lib/openzeppelin-contracts/",
+        "openzeppelin/=lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/contracts/",
+        "zeus-templates/=lib/zeus-templates/src/"
+      ],
+      "optimizer": {
+        "enabled": false,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/App.sol": "App"
+      },
+      "evmVersion": "cancun",
+      "libraries": {}
+    },
+    "sources": {
+      "lib/eigenlayer-middleware/lib/eigenlayer-contracts/src/contracts/interfaces/IPermissionController.sol": {
+        "keccak256": "0x5642a146907a9302553a6cf92d96d417ff90c679dd24eaf7c3408f831e4d838f",
+        "urls": [
+          "bzz-raw://a661e690160100dc11646f9011275c996c571d4b7876ac2bdf9b05309c63096f",
+          "dweb:/ipfs/QmXJfg7u89XUZ3DYcbo3zTyvWwCKuaUn26DDwFTmsgDoPg"
+        ],
+        "license": "BUSL-1.1"
+      },
+      "lib/eigenlayer-middleware/lib/eigenlayer-contracts/src/contracts/interfaces/ISemVerMixin.sol": {
+        "keccak256": "0xa7cfe506856653310b402b73baca96af947897c02b5b35a310640443e1332791",
+        "urls": [
+          "bzz-raw://e23941c3b825e02e3521dbbae63c5b58fb48d17125669fc0cd3c8d5a8c272d6e",
+          "dweb:/ipfs/QmaPfH8XkpT1nsEdJe34YbQCwBf1Gq89EvUPvG1wPforZa"
+        ],
+        "license": "BUSL-1.1"
+      },
+      "lib/eigenlayer-middleware/lib/eigenlayer-contracts/src/contracts/mixins/SemVerMixin.sol": {
+        "keccak256": "0xbc950c1589c05a76d7c0fec82ad11d15567e2cf8d98770a19963461603f99648",
+        "urls": [
+          "bzz-raw://d483b91672739d608ea510bc1b0f486c13264a50c001c0fa9c909b0282e22546",
+          "dweb:/ipfs/QmdByvG58PAG44LWhXKxyrLpHdsr8epaTcEGhfzhH7ssHc"
+        ],
+        "license": "BUSL-1.1"
+      },
+      "lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol": {
+        "keccak256": "0x89be10e757d242e9b18d5a32c9fbe2019f6d63052bbe46397a430a1d60d7f794",
+        "urls": [
+          "bzz-raw://f103ee2e4aecd37aac6ceefe670709cdd7613dee25fa2d4d9feaf7fc0aaa155e",
+          "dweb:/ipfs/QmRiNZLoJk5k3HPMYGPGjZFd2ke1ZxjhJZkM45Ec9GH9hv"
+        ],
+        "license": "MIT"
+      },
+      "lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/contracts/utils/AddressUpgradeable.sol": {
+        "keccak256": "0x9c80f545915582e63fe206c6ce27cbe85a86fc10b9cd2a0e8c9488fb7c2ee422",
+        "urls": [
+          "bzz-raw://310136ad60820af4177a11a61d77a3686faf5fca4942b600e08fc940db38396b",
+          "dweb:/ipfs/QmbCzMNSTL7Zi7M4UCSqBrkHtp4jjxUnGbkneCZKdR1qeq"
+        ],
+        "license": "MIT"
+      },
+      "lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/contracts/utils/ShortStringsUpgradeable.sol": {
+        "keccak256": "0x4e34d967d14c25ef92ef1d4f7a8761949941f46c8f068923bd59d6e09c23b822",
+        "urls": [
+          "bzz-raw://a4643a5a7f8f7794f502d5fc6576ec09c10732680b93b44ca1899b6f32e7d5de",
+          "dweb:/ipfs/QmVQShpVY4y2Z6XY4ErtkQeNpbGEAcAQXrBeKSti4rX4UB"
+        ],
+        "license": "MIT"
+      },
+      "lib/eigenlayer-middleware/lib/openzeppelin-contracts-upgradeable/contracts/utils/StorageSlotUpgradeable.sol": {
+        "keccak256": "0x07ac95acad040f1fb1f6120dd0aa5f702db69446e95f82613721879d30de0908",
+        "urls": [
+          "bzz-raw://a9df9de7b5da1d1bd3d4b6c073d0174bc4211db60e794a321c8cb5d4eae34685",
+          "dweb:/ipfs/QmWe49zj65jayrCe9jZpoWhYUZ1RiwSxyU2s7SBZnMztVy"
+        ],
+        "license": "MIT"
+      },
+      "src/App.sol": {
+        "keccak256": "0x6077a24d20717297cb3a9fea21ba3e4b5d6c4f1dfef29c14497e112287662e04",
+        "urls": [
+          "bzz-raw://a5138f2f8b98459c93a80100591ed459aa18c7ea4bcc189a90172486d91978c1",
+          "dweb:/ipfs/Qmb5gfP1tcTTtqmknVtDiCLz7jJeG4PnYg9SbjCeNqA7Ky"
+        ],
+        "license": "BUSL-1.1"
+      },
+      "src/interfaces/IApp.sol": {
+        "keccak256": "0x6f62a30798ae91d791d33f5364f11a76ab5f22fb44d978e0b5057aa9fbccfb7b",
+        "urls": [
+          "bzz-raw://ceb8dff3c1e893fd22d8e3c13a67282fbb2af250936228847d2827a87fe18509",
+          "dweb:/ipfs/QmZTzqs4V9zGJg7wUhSCqtfsPZpdTS9o3kauj3mR8dpo6v"
+        ],
+        "license": "MIT"
+      },
+      "src/storage/AppStorage.sol": {
+        "keccak256": "0xc038e3969baee4c616288c58d75eafb1efde0d5a194aad4856a8bebe12c470d2",
+        "urls": [
+          "bzz-raw://3a51fdb6637d270cb526eac06b03ca224445ecb124385b7cce39ff4e3055202c",
+          "dweb:/ipfs/QmVz5na5bSjYdJrMb4t6911sPwjoB288vMUxMHqzUE6Q4B"
+        ],
+        "license": "BUSL-1.1"
+      }
+    },
+    "version": 1
+  },
+  "id": 119
+}
