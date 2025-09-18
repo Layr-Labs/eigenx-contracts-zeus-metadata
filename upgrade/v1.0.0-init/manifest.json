@@ -1,0 +1,16 @@
+{
+  "name": "init",
+  "from": "0.0.0",
+  "to": "1.0.0",
+  "phases": [
+    {
+      "type": "eoa",
+      "filename": "1-deployContracts.s.sol"
+    },
+    {
+      "type": "multisig",
+      "filename": "2-acceptAdminAndSetLimits.s.sol"
+    }
+  ],
+  "commit": "8bc264783f88bb133d9fee6f68e2c6d01923dd56"
+}
