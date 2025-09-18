@@ -17,7 +17,7 @@
   "metadata": [],
   "upgrade": "v1.0.0-init",
   "upgradePath": "script/releases/v1.0.0-init",
-  "phase": "",
+  "phase": "eoa_start",
   "chainId": 11155111,
   "startTime": "Thu Sep 18 2025 01:28:21 GMT-0700 (Pacific Daylight Time)",
   "startTimestamp": 1758184101.875
