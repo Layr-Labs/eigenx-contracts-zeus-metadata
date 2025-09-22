@@ -1,0 +1,16 @@
+{
+  "name": "init",
+  "from": "1.0.0",
+  "to": "1.0.1",
+  "phases": [
+    {
+      "type": "eoa",
+      "filename": "1-deployContracts.s.sol"
+    },
+    {
+      "type": "multisig",
+      "filename": "2-upgradeContracts.s.sol"
+    }
+  ],
+  "commit": "10473f33eba45513a7f9a240a3e5b841ccccdc95"
+}
