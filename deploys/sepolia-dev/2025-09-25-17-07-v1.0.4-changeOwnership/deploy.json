@@ -9,10 +9,19 @@
       "id": 0
     }
   ],
-  "metadata": [],
+  "metadata": [
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "gnosis.api.eoa",
+      "gnosisTransactionHash": "0x9ea1eb52c99ae18469ca0fa0e571af03620f271487c29e5cf213386d1e1cd9cb",
+      "multisig": "0x6f8459810197cc9fE123BBeB918451757a4fBAc6",
+      "confirmed": false
+    }
+  ],
   "upgrade": "v1.0.4-changeOwnership",
   "upgradePath": "script/releases/v1.0.4-changeOwnership",
-  "phase": "",
+  "phase": "multisig_wait_signers",
   "chainId": 11155111,
   "startTime": "Thu Sep 25 2025 17:07:03 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1758841623.411
