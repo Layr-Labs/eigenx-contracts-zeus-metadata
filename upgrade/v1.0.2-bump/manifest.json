@@ -1,0 +1,16 @@
+{
+  "name": "bump",
+  "from": "1.0.1",
+  "to": "1.0.2",
+  "phases": [
+    {
+      "type": "eoa",
+      "filename": "1-deployContracts.s.sol"
+    },
+    {
+      "type": "multisig",
+      "filename": "2-upgradeContracts.s.sol"
+    }
+  ],
+  "commit": "8eab5823a6b60f1b631bc872ac2e8cb7538d8fbd"
+}
