@@ -1,0 +1,12 @@
+{
+  "name": "change-ownership",
+  "from": ">=1.0.3",
+  "to": "1.0.4",
+  "phases": [
+    {
+      "type": "multisig",
+      "filename": "1-changeOwnership.s.sol"
+    }
+  ],
+  "commit": "326921979a095471354b0b8eda9746d4dfa37afc"
+}
