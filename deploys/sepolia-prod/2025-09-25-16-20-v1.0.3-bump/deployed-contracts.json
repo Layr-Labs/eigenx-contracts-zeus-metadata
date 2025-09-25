@@ -1,0 +1,16 @@
+{
+  "contracts": [
+    {
+      "address": "0xc6AEA3d84D38388325170ACE18c124BA872Ee117",
+      "contract": "AppController_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x7dea6986e7445ae0ab93e9aa3a2cf067a9afea085001f680537da935b995d968",
+      "lastUpdatedIn": {
+        "name": "2025-09-25-16-20-v1.0.3-bump",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0x2E426cAb37b51e385163D40e5161B29885f23667"
+      }
+    }
+  ]
+}
