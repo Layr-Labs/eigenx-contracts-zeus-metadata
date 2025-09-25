@@ -1,6 +1,6 @@
 {
   "id": "sepolia-dev",
-  "deployedVersion": "1.0.3",
+  "deployedVersion": "1.0.4",
   "contracts": {
     "static": {
       "AppController_Impl": {
@@ -114,6 +114,6 @@
     },
     "instances": []
   },
-  "latestDeployedCommit": "79ad20fe7cf62cada5d52c2ade3f229c5543a255",
+  "latestDeployedCommit": "326921979a095471354b0b8eda9746d4dfa37afc",
   "chainId": 11155111
 }
