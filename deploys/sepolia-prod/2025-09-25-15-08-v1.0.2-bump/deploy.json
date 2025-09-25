@@ -1,0 +1,24 @@
+{
+  "name": "2025-09-25-15-08-v1.0.2-bump",
+  "env": "sepolia-prod",
+  "segmentId": 0,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-deployContracts.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-upgradeContracts.s.sol",
+      "id": 1
+    }
+  ],
+  "metadata": [],
+  "upgrade": "v1.0.2-bump",
+  "upgradePath": "script/releases/v1.0.2-bump",
+  "phase": "",
+  "chainId": 11155111,
+  "startTime": "Thu Sep 25 2025 15:08:19 GMT-0600 (Mountain Daylight Time)",
+  "startTimestamp": 1758834499.553
+}
