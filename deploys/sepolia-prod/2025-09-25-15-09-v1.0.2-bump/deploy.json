@@ -27,11 +27,19 @@
         }
       ],
       "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "gnosis.api.eoa",
+      "gnosisTransactionHash": "0x57a7244e2d2aee6836960a77028bc10d83c00033abec67ded2a941c227b25165",
+      "multisig": "0x6f8459810197cc9fE123BBeB918451757a4fBAc6",
+      "confirmed": false
     }
   ],
   "upgrade": "v1.0.2-bump",
   "upgradePath": "script/releases/v1.0.2-bump",
-  "phase": "multisig_start",
+  "phase": "multisig_wait_signers",
   "chainId": 11155111,
   "startTime": "Thu Sep 25 2025 15:09:12 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1758834552.264
