@@ -1,0 +1,19 @@
+{
+  "name": "2025-09-25-17-12-v1.0.4-changeOwnership",
+  "env": "sepolia-prod",
+  "segmentId": 0,
+  "segments": [
+    {
+      "type": "multisig",
+      "filename": "1-changeOwnership.s.sol",
+      "id": 0
+    }
+  ],
+  "metadata": [],
+  "upgrade": "v1.0.4-changeOwnership",
+  "upgradePath": "script/releases/v1.0.4-changeOwnership",
+  "phase": "",
+  "chainId": 11155111,
+  "startTime": "Thu Sep 25 2025 17:12:42 GMT-0600 (Mountain Daylight Time)",
+  "startTimestamp": 1758841962.785
+}
