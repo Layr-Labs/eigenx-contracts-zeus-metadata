@@ -1,0 +1,15 @@
+{
+  "DelegationManager": "0x39053D51B77DC0d36036Fc1fCc8Cb819df8Ef37A",
+  "AllocationManager": "0x948a420b8CC1d6BFd0B6087C2E7c344a2CD0bc39",
+  "PermissionController": "0x25E5F8B1E7aDf44518d35D5B2271f114e081f0E5",
+  "KeyRegistrar": "0x54f4bC6bDEbe479173a2bbDc31dD7178408A57A4",
+  "ReleaseManager": "0xeDA3CAd031c0cf367cF3f517Ee0DC98F9bA80C8F",
+  "MultiSendCallOnly": "0x40A2aCCbd92BCA938b02010E17A5b8929b49130D",
+  "executorMultisig": "",
+  "computeOpsMultisig": "",
+  "communityMultisig": "",
+  "computeWhitelisterMultisig": "",
+  "OPERATOR_METADATA_URI": "",
+  "AVS_METADATA_URI": "",
+  "MAX_GLOBAL_ACTIVE_APPS": 100
+}
