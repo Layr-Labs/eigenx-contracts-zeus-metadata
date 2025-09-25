@@ -16,12 +16,12 @@
       "signerType": "gnosis.api.eoa",
       "gnosisTransactionHash": "0xcfc5a31fbb1f1ff0d8795becd7edca591f37eaa924835cfe276d6d972952eaec",
       "multisig": "0x6f8459810197cc9fE123BBeB918451757a4fBAc6",
-      "confirmed": false
+      "confirmed": true
     }
   ],
   "upgrade": "v1.0.4-changeOwnership",
   "upgradePath": "script/releases/v1.0.4-changeOwnership",
-  "phase": "multisig_wait_confirm",
+  "phase": "complete",
   "chainId": 11155111,
   "startTime": "Thu Sep 25 2025 17:12:42 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1758841962.785
