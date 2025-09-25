@@ -17,7 +17,7 @@
   "metadata": [],
   "upgrade": "v1.0.2-bump",
   "upgradePath": "script/releases/v1.0.2-bump",
-  "phase": "",
+  "phase": "eoa_start",
   "chainId": 11155111,
   "startTime": "Thu Sep 25 2025 15:09:12 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1758834552.264
