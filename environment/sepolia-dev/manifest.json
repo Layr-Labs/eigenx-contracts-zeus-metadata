@@ -1,15 +1,15 @@
 {
   "id": "sepolia-dev",
-  "deployedVersion": "1.0.1",
+  "deployedVersion": "1.0.2",
   "contracts": {
     "static": {
       "AppController_Impl": {
-        "address": "0xD7eB868261B36A6655391Af4993c7BCA665bE0B0",
+        "address": "0xFdC5C56E17e4A31E1664c030Cb3F62209aBdE20C",
         "contract": "AppController_Impl",
         "singleton": true,
-        "deployedBytecodeHash": "0x83f56a0fec11b6c5fa888ec1c8b52abe26afb4133cf2947813747718215b7d36",
+        "deployedBytecodeHash": "0x6343d2316036ea2982db7758874c5af1bbce59bc21641a18dab096e0c4614037",
         "lastUpdatedIn": {
-          "name": "2025-09-21-21-44-v1.0.1-bump",
+          "name": "2025-09-24-22-47-v1.0.2-bump",
           "phase": "eoa_wait_confirm",
           "segment": 0,
           "signer": "0x27977e6E4426A525d055A587d2a0537b4cb376eA"
@@ -114,6 +114,6 @@
     },
     "instances": []
   },
-  "latestDeployedCommit": "10473f33eba45513a7f9a240a3e5b841ccccdc95",
+  "latestDeployedCommit": "8eab5823a6b60f1b631bc872ac2e8cb7538d8fbd",
   "chainId": 11155111
 }
