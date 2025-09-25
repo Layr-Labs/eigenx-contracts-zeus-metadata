@@ -14,10 +14,24 @@
       "id": 1
     }
   ],
-  "metadata": [],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0x2E426cAb37b51e385163D40e5161B29885f23667",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0xBeD971E6F715e33f2FB9BeDE2E648952B0B6d554",
+          "contract": "AppController_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": false
+    }
+  ],
   "upgrade": "v1.0.3-bump",
   "upgradePath": "script/releases/v1.0.3-bump",
-  "phase": "eoa_start",
+  "phase": "eoa_wait_confirm",
   "chainId": 11155111,
   "startTime": "Thu Sep 25 2025 14:53:54 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1758833634.075
