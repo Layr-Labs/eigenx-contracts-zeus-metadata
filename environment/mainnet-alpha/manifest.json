@@ -1,5 +1,5 @@
 {
-  "id": "mainnet-prod",
+  "id": "mainnet-alpha",
   "deployedVersion": "1.0.4",
   "contracts": {
     "static": {

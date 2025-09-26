@@ -1,6 +1,6 @@
 {
   "name": "2025-09-25-17-53-v1.0.4-init",
-  "env": "mainnet-prod",
+  "env": "mainnet-alpha",
   "segmentId": 1,
   "segments": [
     {
