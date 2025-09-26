@@ -14,10 +14,64 @@
       "id": 1
     }
   ],
-  "metadata": [],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xa0c118bb5ceC4c28d5cdB0b2f897c9634c988BDb",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0xd76024622bA7b65a24E90c51cbdB27977ef470af",
+          "contract": "AppController_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0x5b3d8291DD5d2Da5100b95fB670e77CeBFe8Bd7c",
+          "contract": "ComputeAVSRegistrar_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0xD25a7489a9b9056788050cD5240E33a9f35831Ed",
+          "contract": "ComputeOperator_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0xc38d35Fc995e75342A21CBd6D770305b142Fbe67",
+          "contract": "AppController_Proxy",
+          "singleton": true
+        },
+        {
+          "address": "0xaFE783e9BcEC2993898E70906434d5bC8de3357b",
+          "contract": "ComputeAVSRegistrar_Proxy",
+          "singleton": true
+        },
+        {
+          "address": "0x801c1c2Dfab0A6821CA38a08b78A7c7CC81d64d1",
+          "contract": "ComputeOperator_Proxy",
+          "singleton": true
+        },
+        {
+          "address": "0xe114F836b09800Ca7eEfa0557e0c27E98d73d047",
+          "contract": "App_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0xC1E14F82c7F554b8582BB786728f669875b3fC53",
+          "contract": "App_Beacon",
+          "singleton": true
+        },
+        {
+          "address": "0x92dd25C0EE0030e3deaB4a4C04f91bd7Ea368B25",
+          "contract": "ProxyAdmin",
+          "singleton": true
+        }
+      ],
+      "confirmed": false
+    }
+  ],
   "upgrade": "v1.0.4-init",
   "upgradePath": "script/releases/v1.0.4-init",
-  "phase": "eoa_start",
+  "phase": "eoa_wait_confirm",
   "chainId": 1,
   "startTime": "Thu Sep 25 2025 17:53:48 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1758844428.951

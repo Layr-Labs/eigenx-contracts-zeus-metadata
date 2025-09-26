@@ -1,0 +1,112 @@
+{
+  "contracts": [
+    {
+      "address": "0xd76024622bA7b65a24E90c51cbdB27977ef470af",
+      "contract": "AppController_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x7dea6986e7445ae0ab93e9aa3a2cf067a9afea085001f680537da935b995d968",
+      "lastUpdatedIn": {
+        "name": "2025-09-25-17-53-v1.0.4-init",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xa0c118bb5ceC4c28d5cdB0b2f897c9634c988BDb"
+      }
+    },
+    {
+      "address": "0x5b3d8291DD5d2Da5100b95fB670e77CeBFe8Bd7c",
+      "contract": "ComputeAVSRegistrar_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xc739f488a9597d82babf4bf9b3c40ad66f5a096861cf95590888054e2813eff2",
+      "lastUpdatedIn": {
+        "name": "2025-09-25-17-53-v1.0.4-init",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xa0c118bb5ceC4c28d5cdB0b2f897c9634c988BDb"
+      }
+    },
+    {
+      "address": "0xD25a7489a9b9056788050cD5240E33a9f35831Ed",
+      "contract": "ComputeOperator_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x20c7a8f10769df1c106964dab0e08376af8b9daa744e63286a1ca3152d97debf",
+      "lastUpdatedIn": {
+        "name": "2025-09-25-17-53-v1.0.4-init",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xa0c118bb5ceC4c28d5cdB0b2f897c9634c988BDb"
+      }
+    },
+    {
+      "address": "0xc38d35Fc995e75342A21CBd6D770305b142Fbe67",
+      "contract": "AppController_Proxy",
+      "singleton": true,
+      "deployedBytecodeHash": "0x7dea6986e7445ae0ab93e9aa3a2cf067a9afea085001f680537da935b995d968",
+      "lastUpdatedIn": {
+        "name": "2025-09-25-17-53-v1.0.4-init",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xa0c118bb5ceC4c28d5cdB0b2f897c9634c988BDb"
+      }
+    },
+    {
+      "address": "0xaFE783e9BcEC2993898E70906434d5bC8de3357b",
+      "contract": "ComputeAVSRegistrar_Proxy",
+      "singleton": true,
+      "deployedBytecodeHash": "0xc739f488a9597d82babf4bf9b3c40ad66f5a096861cf95590888054e2813eff2",
+      "lastUpdatedIn": {
+        "name": "2025-09-25-17-53-v1.0.4-init",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xa0c118bb5ceC4c28d5cdB0b2f897c9634c988BDb"
+      }
+    },
+    {
+      "address": "0x801c1c2Dfab0A6821CA38a08b78A7c7CC81d64d1",
+      "contract": "ComputeOperator_Proxy",
+      "singleton": true,
+      "deployedBytecodeHash": "0x20c7a8f10769df1c106964dab0e08376af8b9daa744e63286a1ca3152d97debf",
+      "lastUpdatedIn": {
+        "name": "2025-09-25-17-53-v1.0.4-init",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xa0c118bb5ceC4c28d5cdB0b2f897c9634c988BDb"
+      }
+    },
+    {
+      "address": "0xe114F836b09800Ca7eEfa0557e0c27E98d73d047",
+      "contract": "App_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xdf2ca20e02f1a9e2d2cc8a0292c88ddce3267622565c6d06689315fddff90f3f",
+      "lastUpdatedIn": {
+        "name": "2025-09-25-17-53-v1.0.4-init",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xa0c118bb5ceC4c28d5cdB0b2f897c9634c988BDb"
+      }
+    },
+    {
+      "address": "0xC1E14F82c7F554b8582BB786728f669875b3fC53",
+      "contract": "App_Beacon",
+      "singleton": true,
+      "deployedBytecodeHash": "0xdf2ca20e02f1a9e2d2cc8a0292c88ddce3267622565c6d06689315fddff90f3f",
+      "lastUpdatedIn": {
+        "name": "2025-09-25-17-53-v1.0.4-init",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xa0c118bb5ceC4c28d5cdB0b2f897c9634c988BDb"
+      }
+    },
+    {
+      "address": "0x92dd25C0EE0030e3deaB4a4C04f91bd7Ea368B25",
+      "contract": "ProxyAdmin",
+      "singleton": true,
+      "deployedBytecodeHash": "0xe9ee4177c519a0292c9ad058e75b7f6ae52dccfb20647f2928452436786a55d1",
+      "lastUpdatedIn": {
+        "name": "2025-09-25-17-53-v1.0.4-init",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xa0c118bb5ceC4c28d5cdB0b2f897c9634c988BDb"
+      }
+    }
+  ]
+}
