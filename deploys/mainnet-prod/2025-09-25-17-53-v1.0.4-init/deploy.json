@@ -67,11 +67,20 @@
         }
       ],
       "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0xa0c118bb5ceC4c28d5cdB0b2f897c9634c988BDb",
+      "signerType": "gnosis.onchain.eoa",
+      "gnosisTransactionHash": "0x4586c1df9d6099704b59ebf8944ce959ec267cee37627f5876034d51e61ac1bb",
+      "multisig": "0x684cf8978c2815716c85eAa237E311f5a44e9e09",
+      "confirmed": true,
+      "immediateExecutionHash": "0x7e8c3bfc861131cc5a66a1191f3b2ec722d893460bc4b8495f96bd42181be78f"
     }
   ],
   "upgrade": "v1.0.4-init",
   "upgradePath": "script/releases/v1.0.4-init",
-  "phase": "multisig_start",
+  "phase": "complete",
   "chainId": 1,
   "startTime": "Thu Sep 25 2025 17:53:48 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1758844428.951
