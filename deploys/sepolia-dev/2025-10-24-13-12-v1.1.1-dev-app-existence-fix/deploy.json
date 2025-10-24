@@ -34,12 +34,12 @@
       "signerType": "gnosis.api.eoa",
       "gnosisTransactionHash": "0x8d7051d4ed1b7cc3d56fb2a6001f92fe8a76a9763854b9c1183a72c8c150caa8",
       "multisig": "0xb094Ba769b4976Dc37fC689A76675f31bc4923b0",
-      "confirmed": false
+      "confirmed": true
     }
   ],
   "upgrade": "v1.1.1-dev-app-existence-fix",
   "upgradePath": "script/releases/v1.1.1-dev-app-existence-fix",
-  "phase": "multisig_wait_confirm",
+  "phase": "complete",
   "chainId": 11155111,
   "startTime": "Fri Oct 24 2025 13:12:55 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1761333175.693
