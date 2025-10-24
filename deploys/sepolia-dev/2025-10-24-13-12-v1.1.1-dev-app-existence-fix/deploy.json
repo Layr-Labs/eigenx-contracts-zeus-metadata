@@ -1,7 +1,7 @@
 {
   "name": "2025-10-24-13-12-v1.1.1-dev-app-existence-fix",
   "env": "sepolia-dev",
-  "segmentId": 0,
+  "segmentId": 1,
   "segments": [
     {
       "type": "eoa",
@@ -26,12 +26,12 @@
           "singleton": true
         }
       ],
-      "confirmed": false
+      "confirmed": true
     }
   ],
   "upgrade": "v1.1.1-dev-app-existence-fix",
   "upgradePath": "script/releases/v1.1.1-dev-app-existence-fix",
-  "phase": "eoa_wait_confirm",
+  "phase": "multisig_start",
   "chainId": 11155111,
   "startTime": "Fri Oct 24 2025 13:12:55 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1761333175.693
