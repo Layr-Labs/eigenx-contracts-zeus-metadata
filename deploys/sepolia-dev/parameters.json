@@ -9,6 +9,7 @@
   "computeOpsMultisig": "0xb094Ba769b4976Dc37fC689A76675f31bc4923b0",
   "communityMultisig": "0x6f8459810197cc9fE123BBeB918451757a4fBAc6",
   "computeWhitelisterMultisig": "0xb094Ba769b4976Dc37fC689A76675f31bc4923b0",
+  "billingAdmin": "0x3eA7CD83A3d448882476CD5fD16A5a0DF60A3D27",
   "OPERATOR_METADATA_URI": "https://gist.githubusercontent.com/solimander/77cb0bad588efef87a24cdc35532c2b7/raw/afe78406afe7bda1889e4f55912ad1f89d801b83/metadata.json",
   "AVS_METADATA_URI": "https://gist.githubusercontent.com/solimander/77cb0bad588efef87a24cdc35532c2b7/raw/afe78406afe7bda1889e4f55912ad1f89d801b83/metadata.json",
   "MAX_GLOBAL_ACTIVE_APPS": 100
