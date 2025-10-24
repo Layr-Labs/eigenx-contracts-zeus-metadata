@@ -1,0 +1,16 @@
+{
+  "name": "dev-app-existence-fix",
+  "from": "1.1.0",
+  "to": "1.1.1",
+  "phases": [
+    {
+      "type": "eoa",
+      "filename": "1-deployAppControllerImpl.s.sol"
+    },
+    {
+      "type": "multisig",
+      "filename": "2-upgradeAppController.s.sol"
+    }
+  ],
+  "commit": "75325c3ada2d95e84257d514516c805ffc0ee9fd"
+}
