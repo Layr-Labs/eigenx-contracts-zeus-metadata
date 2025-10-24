@@ -39,7 +39,7 @@
   ],
   "upgrade": "v1.1.1-dev-app-existence-fix",
   "upgradePath": "script/releases/v1.1.1-dev-app-existence-fix",
-  "phase": "multisig_execute",
+  "phase": "multisig_wait_confirm",
   "chainId": 11155111,
   "startTime": "Fri Oct 24 2025 13:12:55 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1761333175.693
