@@ -1,0 +1,16 @@
+{
+  "contracts": [
+    {
+      "address": "0x89ef1267996a3a93A31D4689dE15C9c6cc6612c7",
+      "contract": "AppController_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xfb437a6ca7d1979497b48b64339c93096e2482119975331b395b9f4271be2ad0",
+      "lastUpdatedIn": {
+        "name": "2025-10-24-13-12-v1.1.1-dev-app-existence-fix",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+      }
+    }
+  ]
+}
