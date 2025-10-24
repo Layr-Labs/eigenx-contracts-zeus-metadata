@@ -1,0 +1,16 @@
+{
+  "contracts": [
+    {
+      "address": "0xCa4308a2E1101Dd200fE9aD683A3E67744198C3b",
+      "contract": "AppController_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x9b2ba2c9ad2d65ec5e74c19780178409334cbddf87780ca328a0f980409ce326",
+      "lastUpdatedIn": {
+        "name": "2025-10-24-11-32-v1.1.0-app-suspension",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+      }
+    }
+  ]
+}
