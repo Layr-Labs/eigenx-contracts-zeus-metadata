@@ -39,7 +39,7 @@
   ],
   "upgrade": "v1.1.0-app-suspension",
   "upgradePath": "script/releases/v1.1.0-app-suspension",
-  "phase": "multisig_execute",
+  "phase": "multisig_wait_confirm",
   "chainId": 11155111,
   "startTime": "Fri Oct 24 2025 11:32:16 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1761327136.052
