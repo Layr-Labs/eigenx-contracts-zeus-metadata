@@ -34,12 +34,12 @@
       "signerType": "gnosis.api.eoa",
       "gnosisTransactionHash": "0xdc42dd30bcc477163d630c30e7041ee6e68123cc26f10f25e06a205ccf9fad43",
       "multisig": "0xb094Ba769b4976Dc37fC689A76675f31bc4923b0",
-      "confirmed": false
+      "confirmed": true
     }
   ],
   "upgrade": "v1.1.0-app-suspension",
   "upgradePath": "script/releases/v1.1.0-app-suspension",
-  "phase": "multisig_wait_confirm",
+  "phase": "complete",
   "chainId": 11155111,
   "startTime": "Fri Oct 24 2025 11:32:16 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1761327136.052
