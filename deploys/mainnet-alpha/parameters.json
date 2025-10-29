@@ -7,6 +7,7 @@
   "executorMultisig": "0x369e6F597e22EaB55fFb173C6d9cD234BD699111",
   "computeOpsMultisig": "0x684cf8978c2815716c85eAa237E311f5a44e9e09",
   "communityMultisig": "0xFEA47018D632A77bA579846c840d5706705Dc598",
+  "billingAdmin": "0xb844fB34bc8CDa92ccE73F9ce9BBbe60Ead9cDD4",
   "MultiSendCallOnly": "0x40A2aCCbd92BCA938b02010E17A5b8929b49130D",
   "computeWhitelisterMultisig": "0xDECf19D1551e77DEfBe53eE2c38205A3f852163C",
   "OPERATOR_METADATA_URI": "https://gist.githubusercontent.com/solimander/46f2808f32e19e91b164c30930cfa484/raw/5ac816dfcacc6458fa2eb6d361f94af66049df5f/metadata.json",
