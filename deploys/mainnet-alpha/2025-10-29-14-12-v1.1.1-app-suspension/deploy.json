@@ -27,11 +27,19 @@
         }
       ],
       "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0x87F2e561A2E17C3C52F390aFCa9940316407785D",
+      "signerType": "gnosis.api.web",
+      "gnosisTransactionHash": "0x919edffad57d3ffbab12d71569cd6dfa58763d5a98487f2bbf2b97d285e19f53",
+      "multisig": "0x684cf8978c2815716c85eAa237E311f5a44e9e09",
+      "confirmed": false
     }
   ],
   "upgrade": "v1.1.1-app-suspension",
   "upgradePath": "script/releases/v1.1.1-app-suspension",
-  "phase": "multisig_start",
+  "phase": "multisig_wait_signers",
   "chainId": 1,
   "startTime": "Wed Oct 29 2025 14:12:30 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1761768750.848
