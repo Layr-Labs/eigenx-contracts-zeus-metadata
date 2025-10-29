@@ -17,7 +17,7 @@
   "metadata": [],
   "upgrade": "v1.1.1-app-suspension",
   "upgradePath": "script/releases/v1.1.1-app-suspension",
-  "phase": "",
+  "phase": "eoa_start",
   "chainId": 1,
   "startTime": "Wed Oct 29 2025 14:12:30 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1761768750.848
