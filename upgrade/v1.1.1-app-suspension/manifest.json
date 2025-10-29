@@ -1,0 +1,16 @@
+{
+  "name": "app-suspension",
+  "from": "1.0.4",
+  "to": "1.1.1",
+  "phases": [
+    {
+      "type": "eoa",
+      "filename": "1-deployAppControllerImpl.s.sol"
+    },
+    {
+      "type": "multisig",
+      "filename": "2-upgradeAndGrantPermissions.s.sol"
+    }
+  ],
+  "commit": "82395e726316d4fae3990b05486874c19697ff6a"
+}
