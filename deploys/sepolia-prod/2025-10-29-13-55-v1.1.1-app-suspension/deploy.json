@@ -14,10 +14,24 @@
       "id": 1
     }
   ],
-  "metadata": [],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0x15ce1fb5d512D40f1f3873fdBDc5E1a10D19B044",
+          "contract": "AppController_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": false
+    }
+  ],
   "upgrade": "v1.1.1-app-suspension",
   "upgradePath": "script/releases/v1.1.1-app-suspension",
-  "phase": "eoa_start",
+  "phase": "eoa_wait_confirm",
   "chainId": 11155111,
   "startTime": "Wed Oct 29 2025 13:55:44 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1761767744.49
