@@ -1,0 +1,24 @@
+{
+  "name": "2025-10-29-14-10-v1.1.1-app-suspension",
+  "env": "mainnet-alpha",
+  "segmentId": 0,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-deployAppControllerImpl.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-upgradeAndGrantPermissions.s.sol",
+      "id": 1
+    }
+  ],
+  "metadata": [],
+  "upgrade": "v1.1.1-app-suspension",
+  "upgradePath": "script/releases/v1.1.1-app-suspension",
+  "phase": "",
+  "chainId": 1,
+  "startTime": "Wed Oct 29 2025 14:10:18 GMT-0600 (Mountain Daylight Time)",
+  "startTimestamp": 1761768618.899
+}
