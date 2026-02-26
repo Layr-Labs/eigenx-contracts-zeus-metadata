@@ -1,0 +1,28 @@
+{
+  "contracts": [
+    {
+      "address": "0x6ab32e3a5Ed2328333a7fa7228442a4222863a71",
+      "contract": "USDCDeposit_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xc27ba4014418fe8a7c30c5b92c1a22db450f80498ab4fd37ecb885b250648d1a",
+      "lastUpdatedIn": {
+        "name": "2026-02-26-14-57-v1.3.0-usdc-deposit",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+      }
+    },
+    {
+      "address": "0xeA7D15496811ca57b1037e9aa89d2B1b45EF33cf",
+      "contract": "USDCDeposit_Proxy",
+      "singleton": true,
+      "deployedBytecodeHash": "0xc27ba4014418fe8a7c30c5b92c1a22db450f80498ab4fd37ecb885b250648d1a",
+      "lastUpdatedIn": {
+        "name": "2026-02-26-14-57-v1.3.0-usdc-deposit",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+      }
+    }
+  ]
+}
