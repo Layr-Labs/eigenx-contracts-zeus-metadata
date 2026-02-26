@@ -9,10 +9,29 @@
       "id": 0
     }
   ],
-  "metadata": [],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0x297020498C708493efC2071C3F5e9E14519310c0",
+          "contract": "ImageAllowlist_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0x6B6Ce40D81Ae3C261B217D001A07a5b268FFE86e",
+          "contract": "ImageAllowlist_Proxy",
+          "singleton": true
+        }
+      ],
+      "confirmed": false
+    }
+  ],
   "upgrade": "v1.2.0-image-allowlist",
   "upgradePath": "script/releases/v1.2.0-image-allowlist",
-  "phase": "eoa_start",
+  "phase": "eoa_wait_confirm",
   "chainId": 11155111,
   "startTime": "Thu Feb 26 2026 09:02:31 GMT-0700 (Mountain Standard Time)",
   "startTimestamp": 1772121751.199

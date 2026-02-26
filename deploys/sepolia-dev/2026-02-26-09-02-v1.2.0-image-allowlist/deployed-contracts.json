@@ -1,0 +1,28 @@
+{
+  "contracts": [
+    {
+      "address": "0x297020498C708493efC2071C3F5e9E14519310c0",
+      "contract": "ImageAllowlist_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xedfea121347125da88d9479bfa9ec87f9fdfa960819a00ec9d77e4badae34aed",
+      "lastUpdatedIn": {
+        "name": "2026-02-26-09-02-v1.2.0-image-allowlist",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+      }
+    },
+    {
+      "address": "0x6B6Ce40D81Ae3C261B217D001A07a5b268FFE86e",
+      "contract": "ImageAllowlist_Proxy",
+      "singleton": true,
+      "deployedBytecodeHash": "0xedfea121347125da88d9479bfa9ec87f9fdfa960819a00ec9d77e4badae34aed",
+      "lastUpdatedIn": {
+        "name": "2026-02-26-09-02-v1.2.0-image-allowlist",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+      }
+    }
+  ]
+}
