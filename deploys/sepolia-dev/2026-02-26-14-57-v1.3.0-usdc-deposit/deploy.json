@@ -1,0 +1,19 @@
+{
+  "name": "2026-02-26-14-57-v1.3.0-usdc-deposit",
+  "env": "sepolia-dev",
+  "segmentId": 0,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-deployUSDCDeposit.s.sol",
+      "id": 0
+    }
+  ],
+  "metadata": [],
+  "upgrade": "v1.3.0-usdc-deposit",
+  "upgradePath": "script/releases/v1.3.0-usdc-deposit",
+  "phase": "",
+  "chainId": 11155111,
+  "startTime": "Thu Feb 26 2026 14:57:34 GMT-0700 (Mountain Standard Time)",
+  "startTimestamp": 1772143054.986
+}
