@@ -1,0 +1,19 @@
+{
+  "name": "2026-03-05-15-49-v1.3.0-usdc-credits",
+  "env": "sepolia-dev",
+  "segmentId": 0,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-deployUSDCCredits.s.sol",
+      "id": 0
+    }
+  ],
+  "metadata": [],
+  "upgrade": "v1.3.0-usdc-credits",
+  "upgradePath": "script/releases/v1.3.0-usdc-credits",
+  "phase": "",
+  "chainId": 11155111,
+  "startTime": "Thu Mar 05 2026 15:49:54 GMT-0700 (Mountain Standard Time)",
+  "startTimestamp": 1772750994.721
+}
