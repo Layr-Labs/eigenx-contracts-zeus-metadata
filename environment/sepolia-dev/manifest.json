@@ -1,6 +1,6 @@
 {
   "id": "sepolia-dev",
-  "deployedVersion": "1.2.0",
+  "deployedVersion": "1.3.0",
   "contracts": {
     "static": {
       "AppController_Impl": {
@@ -134,10 +134,34 @@
           "segment": 0,
           "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
         }
+      },
+      "USDCCredits_Impl": {
+        "address": "0x134Ca7B5Bb3AE62C44cd21B042ad7559b10db2Ab",
+        "contract": "USDCCredits_Impl",
+        "singleton": true,
+        "deployedBytecodeHash": "0xb6eab1041fb3cc4fe8b6faba6ff8b1b87a7385bf7170df7938f036287093eb12",
+        "lastUpdatedIn": {
+          "name": "2026-03-05-15-49-v1.3.0-usdc-credits",
+          "phase": "eoa_wait_confirm",
+          "segment": 0,
+          "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+        }
+      },
+      "USDCCredits_Proxy": {
+        "address": "0xbdA3897c3A428763B59015C64AB766c288C97376",
+        "contract": "USDCCredits_Proxy",
+        "singleton": true,
+        "deployedBytecodeHash": "0xb6eab1041fb3cc4fe8b6faba6ff8b1b87a7385bf7170df7938f036287093eb12",
+        "lastUpdatedIn": {
+          "name": "2026-03-05-15-49-v1.3.0-usdc-credits",
+          "phase": "eoa_wait_confirm",
+          "segment": 0,
+          "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+        }
       }
     },
     "instances": []
   },
-  "latestDeployedCommit": "81e3ec045e5a5cf76cc31a1b2f91d38a97d5eaaa",
+  "latestDeployedCommit": "4d89ba34501146eed8644a6ccb48246399c133a0",
   "chainId": 11155111
 }
