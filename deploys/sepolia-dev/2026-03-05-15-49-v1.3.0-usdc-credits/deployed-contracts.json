@@ -1,0 +1,28 @@
+{
+  "contracts": [
+    {
+      "address": "0x134Ca7B5Bb3AE62C44cd21B042ad7559b10db2Ab",
+      "contract": "USDCCredits_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xb6eab1041fb3cc4fe8b6faba6ff8b1b87a7385bf7170df7938f036287093eb12",
+      "lastUpdatedIn": {
+        "name": "2026-03-05-15-49-v1.3.0-usdc-credits",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+      }
+    },
+    {
+      "address": "0xbdA3897c3A428763B59015C64AB766c288C97376",
+      "contract": "USDCCredits_Proxy",
+      "singleton": true,
+      "deployedBytecodeHash": "0xb6eab1041fb3cc4fe8b6faba6ff8b1b87a7385bf7170df7938f036287093eb12",
+      "lastUpdatedIn": {
+        "name": "2026-03-05-15-49-v1.3.0-usdc-credits",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+      }
+    }
+  ]
+}
