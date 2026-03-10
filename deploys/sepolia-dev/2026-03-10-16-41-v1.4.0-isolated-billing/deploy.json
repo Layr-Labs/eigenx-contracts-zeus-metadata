@@ -1,0 +1,24 @@
+{
+  "name": "2026-03-10-16-41-v1.4.0-isolated-billing",
+  "env": "sepolia-dev",
+  "segmentId": 0,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-deployAppControllerImpl.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-upgradeAppController.s.sol",
+      "id": 1
+    }
+  ],
+  "metadata": [],
+  "upgrade": "v1.4.0-isolated-billing",
+  "upgradePath": "script/releases/v1.4.0-isolated-billing",
+  "phase": "",
+  "chainId": 11155111,
+  "startTime": "Tue Mar 10 2026 16:41:37 GMT-0600 (Mountain Daylight Time)",
+  "startTimestamp": 1773182497.506
+}
