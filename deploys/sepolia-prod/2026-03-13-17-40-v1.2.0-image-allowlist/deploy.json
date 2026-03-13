@@ -12,7 +12,7 @@
   "metadata": [],
   "upgrade": "v1.2.0-image-allowlist",
   "upgradePath": "script/releases/v1.2.0-image-allowlist",
-  "phase": "",
+  "phase": "eoa_start",
   "chainId": 11155111,
   "startTime": "Fri Mar 13 2026 17:40:20 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1773445220.76
