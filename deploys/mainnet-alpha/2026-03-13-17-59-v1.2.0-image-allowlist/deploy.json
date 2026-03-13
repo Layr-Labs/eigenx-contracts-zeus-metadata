@@ -1,0 +1,19 @@
+{
+  "name": "2026-03-13-17-59-v1.2.0-image-allowlist",
+  "env": "mainnet-alpha",
+  "segmentId": 0,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-deployImageAllowlist.s.sol",
+      "id": 0
+    }
+  ],
+  "metadata": [],
+  "upgrade": "v1.2.0-image-allowlist",
+  "upgradePath": "script/releases/v1.2.0-image-allowlist",
+  "phase": "",
+  "chainId": 1,
+  "startTime": "Fri Mar 13 2026 17:59:21 GMT-0600 (Mountain Daylight Time)",
+  "startTimestamp": 1773446361.469
+}
