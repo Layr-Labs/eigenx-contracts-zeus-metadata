@@ -1,0 +1,19 @@
+{
+  "name": "2026-03-13-17-40-v1.2.0-image-allowlist",
+  "env": "sepolia-prod",
+  "segmentId": 0,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-deployImageAllowlist.s.sol",
+      "id": 0
+    }
+  ],
+  "metadata": [],
+  "upgrade": "v1.2.0-image-allowlist",
+  "upgradePath": "script/releases/v1.2.0-image-allowlist",
+  "phase": "",
+  "chainId": 11155111,
+  "startTime": "Fri Mar 13 2026 17:40:20 GMT-0600 (Mountain Daylight Time)",
+  "startTimestamp": 1773445220.76
+}
