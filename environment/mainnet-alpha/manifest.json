@@ -1,6 +1,6 @@
 {
   "id": "mainnet-alpha",
-  "deployedVersion": "1.1.1",
+  "deployedVersion": "1.2.0",
   "contracts": {
     "static": {
       "AppController_Impl": {
@@ -110,10 +110,34 @@
           "segment": 0,
           "signer": "0xa0c118bb5ceC4c28d5cdB0b2f897c9634c988BDb"
         }
+      },
+      "ImageAllowlist_Impl": {
+        "address": "0x28386ff658FF851061651025D32696DAAe360419",
+        "contract": "ImageAllowlist_Impl",
+        "singleton": true,
+        "deployedBytecodeHash": "0xedfea121347125da88d9479bfa9ec87f9fdfa960819a00ec9d77e4badae34aed",
+        "lastUpdatedIn": {
+          "name": "2026-03-13-17-59-v1.2.0-image-allowlist",
+          "phase": "eoa_wait_confirm",
+          "segment": 0,
+          "signer": "0x83C663CF5Af89FdF8b9214d9cd90922cac22BFcD"
+        }
+      },
+      "ImageAllowlist_Proxy": {
+        "address": "0xb4713c7Cf195fAE4C9947a6Fe069740df6004d72",
+        "contract": "ImageAllowlist_Proxy",
+        "singleton": true,
+        "deployedBytecodeHash": "0xedfea121347125da88d9479bfa9ec87f9fdfa960819a00ec9d77e4badae34aed",
+        "lastUpdatedIn": {
+          "name": "2026-03-13-17-59-v1.2.0-image-allowlist",
+          "phase": "eoa_wait_confirm",
+          "segment": 0,
+          "signer": "0x83C663CF5Af89FdF8b9214d9cd90922cac22BFcD"
+        }
       }
     },
     "instances": []
   },
-  "latestDeployedCommit": "82395e726316d4fae3990b05486874c19697ff6a",
+  "latestDeployedCommit": "000a55f7a3c2d8200b1ab4d8e620cf109e6de275",
   "chainId": 1
 }
