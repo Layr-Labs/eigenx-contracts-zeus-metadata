@@ -12,5 +12,6 @@
   "computeWhitelisterMultisig": "0xDECf19D1551e77DEfBe53eE2c38205A3f852163C",
   "OPERATOR_METADATA_URI": "https://gist.githubusercontent.com/solimander/46f2808f32e19e91b164c30930cfa484/raw/5ac816dfcacc6458fa2eb6d361f94af66049df5f/metadata.json",
   "AVS_METADATA_URI": "https://gist.githubusercontent.com/solimander/46f2808f32e19e91b164c30930cfa484/raw/5ac816dfcacc6458fa2eb6d361f94af66049df5f/metadata.json",
-  "MAX_GLOBAL_ACTIVE_APPS": 100
+  "MAX_GLOBAL_ACTIVE_APPS": 100,
+  "USDC_TOKEN": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
 }
