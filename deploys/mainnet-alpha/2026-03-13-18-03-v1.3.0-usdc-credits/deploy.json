@@ -12,7 +12,7 @@
   "metadata": [],
   "upgrade": "v1.3.0-usdc-credits",
   "upgradePath": "script/releases/v1.3.0-usdc-credits",
-  "phase": "eoa_validate",
+  "phase": "eoa_start",
   "chainId": 1,
   "startTime": "Fri Mar 13 2026 18:03:36 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1773446616.869
