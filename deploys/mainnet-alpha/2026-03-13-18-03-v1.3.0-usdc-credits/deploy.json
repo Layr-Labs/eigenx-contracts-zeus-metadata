@@ -9,10 +9,29 @@
       "id": 0
     }
   ],
-  "metadata": [],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0x83C663CF5Af89FdF8b9214d9cd90922cac22BFcD",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0x2721BC5A9EEd12F9718A811f74C36B9FC1AFeD24",
+          "contract": "USDCCredits_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0xed9c88640ca9149Bd9f7ee6620074af10F2E145d",
+          "contract": "USDCCredits_Proxy",
+          "singleton": true
+        }
+      ],
+      "confirmed": false
+    }
+  ],
   "upgrade": "v1.3.0-usdc-credits",
   "upgradePath": "script/releases/v1.3.0-usdc-credits",
-  "phase": "eoa_start",
+  "phase": "eoa_wait_confirm",
   "chainId": 1,
   "startTime": "Fri Mar 13 2026 18:03:36 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1773446616.869
