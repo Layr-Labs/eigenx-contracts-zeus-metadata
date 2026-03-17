@@ -1,0 +1,16 @@
+{
+  "contracts": [
+    {
+      "address": "0x5e83c7d195318A5acf46B29E5810DdC323b2F6fD",
+      "contract": "AppController_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xbc6660180ed9f70125102b97ce3751d01d7311e2f9443b870103197bcf1a357f",
+      "lastUpdatedIn": {
+        "name": "2026-03-17-12-12-v1.4.0-isolated-billing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+      }
+    }
+  ]
+}
