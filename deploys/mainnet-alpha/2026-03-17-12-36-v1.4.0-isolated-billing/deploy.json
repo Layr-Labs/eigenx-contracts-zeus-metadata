@@ -14,10 +14,24 @@
       "id": 1
     }
   ],
-  "metadata": [],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0x83C663CF5Af89FdF8b9214d9cd90922cac22BFcD",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0xB545570B6c960EFaeb84C353E15f17A4EA470707",
+          "contract": "AppController_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": false
+    }
+  ],
   "upgrade": "v1.4.0-isolated-billing",
   "upgradePath": "script/releases/v1.4.0-isolated-billing",
-  "phase": "eoa_start",
+  "phase": "eoa_wait_confirm",
   "chainId": 1,
   "startTime": "Tue Mar 17 2026 12:36:41 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1773772601.404
