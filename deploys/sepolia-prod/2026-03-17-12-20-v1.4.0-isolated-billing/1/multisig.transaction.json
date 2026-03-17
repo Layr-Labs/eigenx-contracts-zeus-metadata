@@ -1,0 +1,57 @@
+{
+  "safe": "0xb094Ba769b4976Dc37fC689A76675f31bc4923b0",
+  "to": "0x2B67FA2e781B5E43fBF314B72772adca4c78Bf69",
+  "value": "0",
+  "data": "0x99a88ec40000000000000000000000000dd810a6ffba6a9820a10d97b659f07d8d23d4e2000000000000000000000000fa50e30c1bff4b9582204d6be1e318d7a0a70b04",
+  "operation": 0,
+  "gasToken": "0x0000000000000000000000000000000000000000",
+  "safeTxGas": "0",
+  "baseGas": "0",
+  "gasPrice": "0",
+  "refundReceiver": "0x0000000000000000000000000000000000000000",
+  "nonce": "115",
+  "executionDate": "2026-03-17T18:29:00Z",
+  "submissionDate": "2026-03-17T18:25:56.951572Z",
+  "modified": "2026-03-17T18:29:02.061997Z",
+  "blockNumber": 10465275,
+  "transactionHash": "0x0a3cb69834916ecd780845393fee66e74bc240eb3ef1bd1e7cf0a0727deec9ae",
+  "safeTxHash": "0x05bde15c02fa7a9e577fae671fedce3d2a339a0834429d9f41e2335916e5d20d",
+  "proposer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+  "proposedByDelegate": null,
+  "executor": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+  "isExecuted": true,
+  "isSuccessful": true,
+  "ethGasPrice": "1000010",
+  "maxFeePerGas": "1000020",
+  "maxPriorityFeePerGas": "1000000",
+  "gasUsed": 71103,
+  "fee": "71103711030",
+  "origin": "{}",
+  "dataDecoded": {
+    "method": "upgrade",
+    "parameters": [
+      {
+        "name": "proxy",
+        "type": "address",
+        "value": "0x0dd810a6ffba6a9820a10d97b659f07d8d23d4E2"
+      },
+      {
+        "name": "implementation",
+        "type": "address",
+        "value": "0xFA50e30c1bFf4b9582204D6Be1E318D7a0A70b04"
+      }
+    ]
+  },
+  "confirmationsRequired": 1,
+  "confirmations": [
+    {
+      "owner": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "submissionDate": "2026-03-17T18:25:57.004617Z",
+      "transactionHash": null,
+      "signature": "0xf49e785677e97b8ba5f025fd1126c06127762d1412b94199ca0d7fa5fc549d9c306ffe96fd72227958cf6c1e74ecbf9710315cf86380d3caa40a2b675cb9dc741c",
+      "signatureType": "EOA"
+    }
+  ],
+  "trusted": true,
+  "signatures": "0xf49e785677e97b8ba5f025fd1126c06127762d1412b94199ca0d7fa5fc549d9c306ffe96fd72227958cf6c1e74ecbf9710315cf86380d3caa40a2b675cb9dc741c"
+}
