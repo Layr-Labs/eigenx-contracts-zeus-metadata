@@ -27,11 +27,20 @@
         }
       ],
       "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "gnosis.onchain.eoa",
+      "gnosisTransactionHash": "0xd2ee3075db33abb3bbb4b7d7173b97aabd6bc9d3a11918225dc533631b40688b",
+      "multisig": "0xb094Ba769b4976Dc37fC689A76675f31bc4923b0",
+      "confirmed": true,
+      "immediateExecutionHash": "0x0419895aab95fe81cdc7f404448ae95f98df98ba965787fb88f369e2c40edfa8"
     }
   ],
   "upgrade": "v1.4.0-isolated-billing",
   "upgradePath": "script/releases/v1.4.0-isolated-billing",
-  "phase": "multisig_start",
+  "phase": "complete",
   "chainId": 11155111,
   "startTime": "Tue Mar 17 2026 12:12:33 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1773771153.804
