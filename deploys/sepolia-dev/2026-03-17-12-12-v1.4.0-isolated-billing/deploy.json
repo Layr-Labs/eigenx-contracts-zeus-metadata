@@ -17,7 +17,7 @@
   "metadata": [],
   "upgrade": "v1.4.0-isolated-billing",
   "upgradePath": "script/releases/v1.4.0-isolated-billing",
-  "phase": "",
+  "phase": "eoa_start",
   "chainId": 11155111,
   "startTime": "Tue Mar 17 2026 12:12:33 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1773771153.804
