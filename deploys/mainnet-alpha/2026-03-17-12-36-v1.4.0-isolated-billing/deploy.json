@@ -27,19 +27,11 @@
         }
       ],
       "confirmed": true
-    },
-    {
-      "type": "multisig",
-      "signer": "0xa0c118bb5ceC4c28d5cdB0b2f897c9634c988BDb",
-      "signerType": "gnosis.api.eoa",
-      "gnosisTransactionHash": "0x5bbd69900f2d71521f82fb87f5f1d2ca1f7fd69b4d74ffffc9ba7f4cb264c47c",
-      "multisig": "0x684cf8978c2815716c85eAa237E311f5a44e9e09",
-      "confirmed": false
     }
   ],
   "upgrade": "v1.4.0-isolated-billing",
   "upgradePath": "script/releases/v1.4.0-isolated-billing",
-  "phase": "multisig_wait_signers",
+  "phase": "multisig_start",
   "chainId": 1,
   "startTime": "Tue Mar 17 2026 12:36:41 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1773772601.404
