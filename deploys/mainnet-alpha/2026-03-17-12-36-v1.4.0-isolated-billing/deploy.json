@@ -34,12 +34,12 @@
       "signerType": "gnosis.api.eoa",
       "gnosisTransactionHash": "0x8d313421889fbee184500663910c42bfb94982119a039c5bc677708a557bae50",
       "multisig": "0x684cf8978c2815716c85eAa237E311f5a44e9e09",
-      "confirmed": false
+      "confirmed": true
     }
   ],
   "upgrade": "v1.4.0-isolated-billing",
   "upgradePath": "script/releases/v1.4.0-isolated-billing",
-  "phase": "multisig_wait_confirm",
+  "phase": "complete",
   "chainId": 1,
   "startTime": "Tue Mar 17 2026 12:36:41 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1773772601.404

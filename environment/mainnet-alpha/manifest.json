@@ -1,15 +1,15 @@
 {
   "id": "mainnet-alpha",
-  "deployedVersion": "1.3.0",
+  "deployedVersion": "1.4.0",
   "contracts": {
     "static": {
       "AppController_Impl": {
-        "address": "0x2492844312C83945F0f5C58370B502bDbEA6a0f6",
+        "address": "0xB545570B6c960EFaeb84C353E15f17A4EA470707",
         "contract": "AppController_Impl",
         "singleton": true,
-        "deployedBytecodeHash": "0x32c09ddfd8640b6f2d7d364d0ddd08d1ab0f3bc1c4e34210ba6d85cab433a382",
+        "deployedBytecodeHash": "0xbc6660180ed9f70125102b97ce3751d01d7311e2f9443b870103197bcf1a357f",
         "lastUpdatedIn": {
-          "name": "2025-10-29-14-12-v1.1.1-app-suspension",
+          "name": "2026-03-17-12-36-v1.4.0-isolated-billing",
           "phase": "eoa_wait_confirm",
           "segment": 0,
           "signer": "0x83C663CF5Af89FdF8b9214d9cd90922cac22BFcD"
@@ -162,6 +162,6 @@
     },
     "instances": []
   },
-  "latestDeployedCommit": "000a55f7a3c2d8200b1ab4d8e620cf109e6de275",
+  "latestDeployedCommit": "304ba3ed4ddb6c4e909576fefc35a7e563060f73",
   "chainId": 1
 }
