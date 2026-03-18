@@ -39,7 +39,7 @@
   ],
   "upgrade": "v1.4.0-isolated-billing",
   "upgradePath": "script/releases/v1.4.0-isolated-billing",
-  "phase": "multisig_execute",
+  "phase": "multisig_wait_confirm",
   "chainId": 1,
   "startTime": "Tue Mar 17 2026 12:36:41 GMT-0600 (Mountain Daylight Time)",
   "startTimestamp": 1773772601.404
