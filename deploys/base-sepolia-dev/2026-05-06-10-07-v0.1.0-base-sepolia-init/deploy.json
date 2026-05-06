@@ -9,10 +9,34 @@
       "id": 0
     }
   ],
-  "metadata": [],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0x7B38ED1a029BB01Daca6cF0026948c1f882F380A",
+          "contract": "ProxyAdmin",
+          "singleton": true
+        },
+        {
+          "address": "0xaccc5A86732BE85b5012e8614AF237801636F8e5",
+          "contract": "USDCCredits_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0x7673a47463F80c6a3553Db9E54c8cDcd5313d0ac",
+          "contract": "USDCCredits_Proxy",
+          "singleton": true
+        }
+      ],
+      "confirmed": false
+    }
+  ],
   "upgrade": "v0.1.0-base-sepolia-init",
   "upgradePath": "script/releases/v0.1.0-base-sepolia-init",
-  "phase": "eoa_start",
+  "phase": "eoa_wait_confirm",
   "chainId": 84532,
   "startTime": "Wed May 06 2026 10:07:28 GMT-0500 (Central Daylight Time)",
   "startTimestamp": 1778080048.492
