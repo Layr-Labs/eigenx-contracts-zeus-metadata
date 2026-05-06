@@ -1,0 +1,19 @@
+{
+  "name": "2026-05-06-10-07-v0.1.0-base-sepolia-init",
+  "env": "base-sepolia-dev",
+  "segmentId": 0,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-deployUSDCCredits.s.sol",
+      "id": 0
+    }
+  ],
+  "metadata": [],
+  "upgrade": "v0.1.0-base-sepolia-init",
+  "upgradePath": "script/releases/v0.1.0-base-sepolia-init",
+  "phase": "",
+  "chainId": 84532,
+  "startTime": "Wed May 06 2026 10:07:28 GMT-0500 (Central Daylight Time)",
+  "startTimestamp": 1778080048.492
+}
