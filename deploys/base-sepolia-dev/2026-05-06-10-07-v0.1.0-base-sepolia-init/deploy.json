@@ -31,12 +31,12 @@
           "singleton": true
         }
       ],
-      "confirmed": false
+      "confirmed": true
     }
   ],
   "upgrade": "v0.1.0-base-sepolia-init",
   "upgradePath": "script/releases/v0.1.0-base-sepolia-init",
-  "phase": "eoa_wait_confirm",
+  "phase": "complete",
   "chainId": 84532,
   "startTime": "Wed May 06 2026 10:07:28 GMT-0500 (Central Daylight Time)",
   "startTimestamp": 1778080048.492
