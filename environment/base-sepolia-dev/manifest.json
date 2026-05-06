@@ -1,10 +1,47 @@
 {
   "id": "base-sepolia-dev",
-  "deployedVersion": "0.0.0",
+  "deployedVersion": "0.1.0",
   "contracts": {
-    "static": {},
+    "static": {
+      "ProxyAdmin": {
+        "address": "0x7B38ED1a029BB01Daca6cF0026948c1f882F380A",
+        "contract": "ProxyAdmin",
+        "singleton": true,
+        "deployedBytecodeHash": "0x30381b84f1b036255d19361fd8726bf35d4ce14d08f782b5746fd8e112e9b29f",
+        "lastUpdatedIn": {
+          "name": "2026-05-06-10-07-v0.1.0-base-sepolia-init",
+          "phase": "eoa_wait_confirm",
+          "segment": 0,
+          "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+        }
+      },
+      "USDCCredits_Impl": {
+        "address": "0xaccc5A86732BE85b5012e8614AF237801636F8e5",
+        "contract": "USDCCredits_Impl",
+        "singleton": true,
+        "deployedBytecodeHash": "0x6de03387b3136c68d40115b1dd5be433e94425e220160d84f2b2b3372b78d7bd",
+        "lastUpdatedIn": {
+          "name": "2026-05-06-10-07-v0.1.0-base-sepolia-init",
+          "phase": "eoa_wait_confirm",
+          "segment": 0,
+          "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+        }
+      },
+      "USDCCredits_Proxy": {
+        "address": "0x7673a47463F80c6a3553Db9E54c8cDcd5313d0ac",
+        "contract": "USDCCredits_Proxy",
+        "singleton": true,
+        "deployedBytecodeHash": "0x6de03387b3136c68d40115b1dd5be433e94425e220160d84f2b2b3372b78d7bd",
+        "lastUpdatedIn": {
+          "name": "2026-05-06-10-07-v0.1.0-base-sepolia-init",
+          "phase": "eoa_wait_confirm",
+          "segment": 0,
+          "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+        }
+      }
+    },
     "instances": []
   },
-  "latestDeployedCommit": "",
+  "latestDeployedCommit": "c923b7076596ddc42667b83fb70b73908f98d08b",
   "chainId": 84532
 }
