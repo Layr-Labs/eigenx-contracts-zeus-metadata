@@ -1,0 +1,16 @@
+{
+  "contracts": [
+    {
+      "address": "0x5B60f6Ea3EcCE7993480072F112f8e451e33834B",
+      "contract": "AppController_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x068ce103d112d3771be03f3d37a0d7964bd6234e0be29648322f04118f1deb3a",
+      "lastUpdatedIn": {
+        "name": "2026-05-27-22-13-v1.5.0-create-empty-app",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+      }
+    }
+  ]
+}
