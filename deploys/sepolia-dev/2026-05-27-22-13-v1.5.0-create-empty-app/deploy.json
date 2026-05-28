@@ -1,7 +1,7 @@
 {
   "name": "2026-05-27-22-13-v1.5.0-create-empty-app",
   "env": "sepolia-dev",
-  "segmentId": 0,
+  "segmentId": 1,
   "segments": [
     {
       "type": "eoa",
@@ -26,12 +26,12 @@
           "singleton": true
         }
       ],
-      "confirmed": false
+      "confirmed": true
     }
   ],
   "upgrade": "v1.5.0-create-empty-app",
   "upgradePath": "script/releases/v1.5.0-create-empty-app",
-  "phase": "eoa_wait_confirm",
+  "phase": "multisig_start",
   "chainId": 11155111,
   "startTime": "Wed May 27 2026 22:13:20 GMT-0500 (Central Daylight Time)",
   "startTimestamp": 1779938000.906
