@@ -17,7 +17,7 @@
   "metadata": [],
   "upgrade": "v1.5.1-storage-layout-fix",
   "upgradePath": "script/releases/v1.5.1-storage-layout-fix",
-  "phase": "",
+  "phase": "eoa_start",
   "chainId": 11155111,
   "startTime": "Wed Jun 03 2026 10:40:23 GMT-0500 (Central Daylight Time)",
   "startTimestamp": 1780501223.026
