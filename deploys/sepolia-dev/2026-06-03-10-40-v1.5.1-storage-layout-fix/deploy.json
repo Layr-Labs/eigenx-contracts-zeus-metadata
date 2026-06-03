@@ -27,11 +27,20 @@
         }
       ],
       "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "gnosis.onchain.eoa",
+      "gnosisTransactionHash": "0x93be537ac354128dc11ac4bc3ea146bbe9ab5cf322d163657f6dbfb7db2d46eb",
+      "multisig": "0xb094Ba769b4976Dc37fC689A76675f31bc4923b0",
+      "confirmed": true,
+      "immediateExecutionHash": "0x881fd2fa80e28945ed19908a1ff66fb8fd319e89089a358adcef8fc1b0698e6a"
     }
   ],
   "upgrade": "v1.5.1-storage-layout-fix",
   "upgradePath": "script/releases/v1.5.1-storage-layout-fix",
-  "phase": "multisig_start",
+  "phase": "complete",
   "chainId": 11155111,
   "startTime": "Wed Jun 03 2026 10:40:23 GMT-0500 (Central Daylight Time)",
   "startTimestamp": 1780501223.026
