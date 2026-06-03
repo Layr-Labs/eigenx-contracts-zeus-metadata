@@ -14,10 +14,24 @@
       "id": 1
     }
   ],
-  "metadata": [],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0x910Bad6949b607359CBA691f79db95F562cA72D5",
+          "contract": "AppController_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": false
+    }
+  ],
   "upgrade": "v1.5.1-storage-layout-fix",
   "upgradePath": "script/releases/v1.5.1-storage-layout-fix",
-  "phase": "eoa_start",
+  "phase": "eoa_wait_confirm",
   "chainId": 11155111,
   "startTime": "Wed Jun 03 2026 10:40:23 GMT-0500 (Central Daylight Time)",
   "startTimestamp": 1780501223.026

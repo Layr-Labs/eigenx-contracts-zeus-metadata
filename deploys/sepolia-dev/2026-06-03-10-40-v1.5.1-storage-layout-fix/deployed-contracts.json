@@ -1,0 +1,16 @@
+{
+  "contracts": [
+    {
+      "address": "0x910Bad6949b607359CBA691f79db95F562cA72D5",
+      "contract": "AppController_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x9d627fb387ebd215ab3d8d9f68c3ab27f13f33404f491001f99a58367c377242",
+      "lastUpdatedIn": {
+        "name": "2026-06-03-10-40-v1.5.1-storage-layout-fix",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479"
+      }
+    }
+  ]
+}
