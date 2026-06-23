@@ -1,6 +1,6 @@
 {
   "id": "base",
-  "deployedVersion": "1.2.0",
+  "deployedVersion": "1.3.0",
   "contracts": {
     "static": {
       "ProxyAdmin": {
@@ -14,10 +14,34 @@
           "segment": 0,
           "signer": "0x83C663CF5Af89FdF8b9214d9cd90922cac22BFcD"
         }
+      },
+      "USDCCredits_Impl": {
+        "address": "0x28386ff658FF851061651025D32696DAAe360419",
+        "contract": "USDCCredits_Impl",
+        "singleton": true,
+        "deployedBytecodeHash": "0xa96c1f8b0b015524f7b2f6e35b1ddc8040af41a3986c1abc7875202964aa8fa7",
+        "lastUpdatedIn": {
+          "name": "2026-06-23-10-24-v1.3.0-usdc-credits",
+          "phase": "eoa_wait_confirm",
+          "segment": 0,
+          "signer": "0x83C663CF5Af89FdF8b9214d9cd90922cac22BFcD"
+        }
+      },
+      "USDCCredits_Proxy": {
+        "address": "0xb4713c7Cf195fAE4C9947a6Fe069740df6004d72",
+        "contract": "USDCCredits_Proxy",
+        "singleton": true,
+        "deployedBytecodeHash": "0xa96c1f8b0b015524f7b2f6e35b1ddc8040af41a3986c1abc7875202964aa8fa7",
+        "lastUpdatedIn": {
+          "name": "2026-06-23-10-24-v1.3.0-usdc-credits",
+          "phase": "eoa_wait_confirm",
+          "segment": 0,
+          "signer": "0x83C663CF5Af89FdF8b9214d9cd90922cac22BFcD"
+        }
       }
     },
     "instances": []
   },
-  "latestDeployedCommit": "c658d63533365756952cdd293cdffae1212197a9",
+  "latestDeployedCommit": "039e4a7af3680edcbf0da51362c66169466889e0",
   "chainId": 8453
 }
