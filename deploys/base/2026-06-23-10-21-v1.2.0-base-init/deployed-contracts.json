@@ -1,0 +1,16 @@
+{
+  "contracts": [
+    {
+      "address": "0x2492844312C83945F0f5C58370B502bDbEA6a0f6",
+      "contract": "ProxyAdmin",
+      "singleton": true,
+      "deployedBytecodeHash": "0x3b1a6ee92c9751e84bec31ffa2a48818e9f56eeff2af03426ae2f7001140d673",
+      "lastUpdatedIn": {
+        "name": "2026-06-23-10-21-v1.2.0-base-init",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0x83C663CF5Af89FdF8b9214d9cd90922cac22BFcD"
+      }
+    }
+  ]
+}
