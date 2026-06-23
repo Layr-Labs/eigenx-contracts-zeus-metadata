@@ -1,0 +1,12 @@
+{
+  "name": "base-init",
+  "from": "0.0.0",
+  "to": "1.2.0",
+  "phases": [
+    {
+      "type": "eoa",
+      "filename": "1-deployProxyAdmin.s.sol"
+    }
+  ],
+  "commit": "c658d63533365756952cdd293cdffae1212197a9"
+}
