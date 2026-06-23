@@ -12,7 +12,7 @@
   "metadata": [],
   "upgrade": "v1.2.0-base-init",
   "upgradePath": "script/releases/v1.2.0-base-init",
-  "phase": "",
+  "phase": "eoa_start",
   "chainId": 8453,
   "startTime": "Tue Jun 23 2026 10:21:05 GMT-0500 (Central Daylight Time)",
   "startTimestamp": 1782228065.221
